@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <title> Output Map Data - MeteoInfo_Help</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;Output Map Data</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>This function is
+designed to convert selected shapes in a map layer to other format files which
+contains border data of the shapes. Following example is to create an ASCII wmf
+file with latitude/longitude border data of Xinjiang province of China.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Add and select ‘bou2_4p.shp’
+layer, and check the index of the Xinjiang shape with ‘Identifer’ tool button.
+The index is 2 in this case.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image097.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Click ‘Output
+Map Data’ sub-menu item under ‘Tools’ menu item to open ‘Output Map Data’
+dialog.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=307 height=432 src="temp.files/image098.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Select ‘Map
+Layer’ as ‘bou2_4p.shp’ and select shape index 2 (Xinjiang province). Set ‘Output
+Format’ as ‘ASCII wmp File’ and then press ‘Output’ button. Set output file
+name ‘Xinjiang.wmp’ in ‘Save As’ dialog then the border longitude/latitude data
+will be saved in the file.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=491 height=325 src="temp.files/image099.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>In the ASCII wmp
+file, first line is the shape type (Point, Polyline or Polygon). Second line is
+total shape number. The data of each shape were written with point number and
+longitude/latitude pairs. Longitude and latitude data were separated with
+comma.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>wmp file could
+be opened in MeteoInfo as a layer.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image100.jpg"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Because ‘Xinjiang.wmp’
+is a polygon layer, it can be the mask layer.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image101.jpg"></span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

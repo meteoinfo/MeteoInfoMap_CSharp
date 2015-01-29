@@ -1,0 +1,87 @@
+<html>
+
+<head>
+  <title> 输出地图数据 - MeteoInfo_Help_Chinese</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;输出地图数据</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>利用这个功能可以将某地图图层中选中的图元按照设置的格式输出，从而获得自己需要的地图数据。下面的示例获得</span><span
+lang=EN-US>wmf</span><span style='font-family:宋体'>格式的新疆地图数据。</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>打开‘</span><span
+lang=EN-US>bou2_4p.shp</span><span style='font-family:宋体'>’地图数据，选中‘图元属性’工具，用鼠标左键点击地图上的新疆区域，显示其图元属性，记住其‘</span><span
+lang=EN-US>Index</span><span style='font-family:宋体'>’为</span><span lang=EN-US>2</span><span
+style='font-family:宋体'>。</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=357 src="temp.files/image099.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>点击‘工具’菜单下的‘输出地图数据’子菜单，打开‘输出地图数据’对话框。</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=307 height=432 src="temp.files/image100.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>选择地图图层为‘</span><span
+lang=EN-US>bou2_4p.shp</span><span style='font-family:宋体'>’，选择序号为</span><span
+lang=EN-US>2</span><span style='font-family:宋体'>的图元（新疆）。设置数据输出格式为‘</span><span
+lang=EN-US>ASCII wmp File</span><span style='font-family:宋体'>’，然后点击‘输出’按钮即可将台湾省的地图数据（边界线经纬度信息）输出为</span><span
+lang=EN-US>wmp</span><span style='font-family:宋体'>格式文件。</span><span lang=EN-US>wmp</span><span
+style='font-family:宋体'>格式文件是</span><span lang=EN-US>ASCII</span><span
+style='font-family:宋体'>文件，可以用写字板等文本编辑器打开。</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=491 height=325 src="temp.files/image101.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>在</span><span
+lang=EN-US>wmp</span><span style='font-family:宋体'>格式文件中，第一行是图元类型（点</span><span
+lang=EN-US>Point</span><span style='font-family:宋体'>、线</span><span lang=EN-US>Polyline</span><span
+style='font-family:宋体'>、面</span><span lang=EN-US>Polygon</span><span
+style='font-family:宋体'>），第二行是图元个数，后面是数据体，每个图元数据体第一行是该图元经纬度数据对的个数（点</span><span
+lang=EN-US>Point</span><span style='font-family:宋体'>图元没有这个信息），然后是该图元组成点的经纬度信息。经纬度之间用逗号分割，经度在前。</span><span
+lang=EN-US>wmp</span><span style='font-family:宋体'>格式数据可以作为地图数据文件在</span><span
+lang=EN-US>MeteoInfo</span><span style='font-family:宋体'>中使用。</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=357 src="temp.files/image102.jpg"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>因为‘</span><span
+lang=EN-US>Xinjiang.wmp</span><span style='font-family:宋体'>’是一个面图层，它可以被当作屏蔽图层来使用。</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=357 src="temp.files/image103.jpg"></span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

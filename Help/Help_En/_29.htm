@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <title> Contour and Shaded Graphics - MeteoInfo_Help</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;Contour and Shaded Graphics</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>To draw the
+contour or shaded graphics, the station data have to be interpolated to grid
+data. The software will set the interpolation parameters automatically. The
+automatic setting is not good in this case, so we should change the setting.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image046.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>After legend was
+reset, the graphic looks as following picture. It is much better, but maybe you
+still don’t like it. Then you could change the interpolation setting to see
+what will happen.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image047.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Click ‘Setting’
+button in ‘Meteorological Data’ dialog to open ‘Interpolate’ dialog. In which
+output grid and interpolation method can be set. IDW (Inverse Distance
+Weighted) and Cressman analysis methods are applied at present. IDW includes
+IDW_Radius and IDW_Neighbors options. With IDW_Radius, the grid point without
+station point found in radius will be set as undefined (which will not be used
+in contour tracing process). With IDW_Neighbors option, all grid points will have
+values calculated from the nearest station points. The continuous distributed
+variables such as temperature may suite for IDW_Neighbors option. In this case,
+we first select interpolation method as IDW_Radius.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=324 height=392 src="temp.files/image048.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>After you
+changed the setting, press ‘OK’ button to save the setting and the ‘Interpolate’
+dialog will be closed also. Then press ‘Draw Data’ button in ‘Meteorological
+Data’ to redraw the figure with new setting. If you set ‘XSize’ and ‘YSize’ to
+1, and ‘Radius’ to 2, you could get following picture. With small ‘XSize’ and ‘YSize’
+means much more grid points have to be interpolated, so much more time will be
+cost for it.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image049.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>If you just want
+to see the data in a certain area, such as China, you could change the output
+grid extent.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image050.jpg"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>The Cressman
+objective analysis scheme (Cressman, 1959) is known as the successive
+correction method. It achieves its result by forcing convergence of the data to
+observed, interpolated values using multiple iterations. The example Cressman
+analysis result is plotted below.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=359 src="temp.files/image051.jpg"></span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

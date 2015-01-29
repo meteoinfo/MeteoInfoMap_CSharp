@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <title> Using CLR and .NET Framework Classes - MeteoInfo_Help</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;Using CLR and .NET Framework Classes</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>IronPython brings
+together the elegant Python programming language and the powerful .NET
+platform. Common Language Runtime (CLR) forms the core execution engine of .Net
+platform. Along with the runtime comes a vast array of libraries and classes,
+collectively known as the framework classes. IronPython is a full .NET language
+and almost all features of the .NET platform can be used. </span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>MeteoInfo script
+is using IronPython engine, so you need some basic knowledge of Python and .Net
+framework for programming MeteoInfo script. “IronPython in Action” is a good
+reference book on it.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>To use the
+classes of .NET, import CLR first and then add references to the .NET assembly.
+For example, the classes included in System, System.Windows.Forms and
+System.Drawing name spaces will be available using following codes.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>import clr</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReferenceByPartialName(&quot;System.Windows.Forms&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReferenceByPartialName(&quot;System.Drawing&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from System.Windows.Forms import *</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from System.Drawing import *</span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

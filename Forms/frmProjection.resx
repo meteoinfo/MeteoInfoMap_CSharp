@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Lab_SP2.Name" xml:space="preserve">
+    <value>Lab_SP2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="B_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 278</value>
+  </data>
+  <data name="&gt;&gt;B_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Lab_RefLat.Text" xml:space="preserve">
+    <value>Reference Latitude:</value>
+  </data>
+  <data name="Lab_SP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="Lab_FalseNorthing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 154</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara1.Name" xml:space="preserve">
+    <value>TB_StandPara1</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara2.Name" xml:space="preserve">
+    <value>TB_StandPara2</value>
+  </data>
+  <data name="Lab_SP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 100</value>
+  </data>
+  <data name="B_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 30</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseEasting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lab_CentralMeridian.Name" xml:space="preserve">
+    <value>Lab_CentralMeridian</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TB_CentralMeridian.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseEasting.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B_Apply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;TB_ScaleFactor.Name" xml:space="preserve">
+    <value>TB_ScaleFactor</value>
+  </data>
+  <data name="&gt;&gt;GB_Parameters.Name" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="Lab_SP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>309, 323</value>
+  </data>
+  <data name="Lab_SP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 73</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseNorthing.Name" xml:space="preserve">
+    <value>TB_FalseNorthing</value>
+  </data>
+  <data name="Lab_FalseNorthing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TB_StandPara1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="B_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="TB_RefLat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="&gt;&gt;Lab_CentralMeridian.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_RefLat.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projection Set</value>
+  </data>
+  <data name="Lab_FalseEasting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP2.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="TB_StandPara2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Lab_RefLat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CB_Projection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseNorthing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B_Apply.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="TB_CentralMeridian.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="B_Apply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 30</value>
+  </data>
+  <data name="&gt;&gt;GB_Parameters.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TB_CentralMeridian.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Lab_SP1.Text" xml:space="preserve">
+    <value>Standard Parallel 1:</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TB_FalseNorthing.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP1.Name" xml:space="preserve">
+    <value>Lab_SP1</value>
+  </data>
+  <data name="&gt;&gt;CB_Projection.Name" xml:space="preserve">
+    <value>CB_Projection</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lab_RefLat.Name" xml:space="preserve">
+    <value>Lab_RefLat</value>
+  </data>
+  <data name="TB_RefLat.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseNorthing.Name" xml:space="preserve">
+    <value>Lab_FalseNorthing</value>
+  </data>
+  <data name="CB_Projection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <data name="&gt;&gt;Lab_RefLat.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="&gt;&gt;B_Apply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Lab_ScaleFactor.Text" xml:space="preserve">
+    <value>Scale Factor:</value>
+  </data>
+  <data name="Lab_CentralMeridian.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara1.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="&gt;&gt;B_Close.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="B_Apply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;TB_RefLat.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="TB_ScaleFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="Lab_CentralMeridian.Text" xml:space="preserve">
+    <value>Central Meridian:</value>
+  </data>
+  <data name="TB_StandPara1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TB_StandPara1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="GB_Parameters.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseNorthing.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B_Close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;Lab_ScaleFactor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Lab_CentralMeridian.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Lab_RefLat.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmProjection</value>
+  </data>
+  <data name="&gt;&gt;TB_RefLat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseEasting.Name" xml:space="preserve">
+    <value>Lab_FalseEasting</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseEasting.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="Lab_SP2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TB_StandPara2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 97</value>
+  </data>
+  <data name="TB_FalseEasting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 124</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseEasting.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseEasting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseEasting.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="Lab_FalseNorthing.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lab_ScaleFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 182</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP1.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="TB_FalseEasting.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Lab_CentralMeridian.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="Lab_RefLat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 46</value>
+  </data>
+  <data name="Lab_CentralMeridian.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="&gt;&gt;TB_ScaleFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lab_CentralMeridian.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseNorthing.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="TB_StandPara2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="&gt;&gt;TB_FalseEasting.Name" xml:space="preserve">
+    <value>TB_FalseEasting</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseNorthing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TB_ScaleFactor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GB_Parameters.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TB_FalseNorthing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="&gt;&gt;B_Apply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B_Apply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 278</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lab_FalseEasting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;Lab_CentralMeridian.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="TB_FalseNorthing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 151</value>
+  </data>
+  <data name="Lab_RefLat.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Lab_FalseEasting.Text" xml:space="preserve">
+    <value>False Easting:</value>
+  </data>
+  <data name="&gt;&gt;CB_Projection.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TB_FalseEasting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="&gt;&gt;Lab_ScaleFactor.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="Lab_FalseEasting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 127</value>
+  </data>
+  <data name="GB_Parameters.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseNorthing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara2.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="&gt;&gt;B_Apply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_Close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GB_Parameters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_ScaleFactor.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="Lab_FalseNorthing.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_CentralMeridian.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="CB_Projection.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Lab_ScaleFactor.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;B_Close.Name" xml:space="preserve">
+    <value>B_Close</value>
+  </data>
+  <data name="Lab_FalseEasting.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GB_Parameters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 54</value>
+  </data>
+  <data name="B_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TB_ScaleFactor.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="GB_Parameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 212</value>
+  </data>
+  <data name="&gt;&gt;Lab_SP1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Lab_ScaleFactor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TB_StandPara1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 24</value>
+  </data>
+  <data name="&gt;&gt;Lab_ScaleFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TB_CentralMeridian.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="Lab_SP1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;B_Apply.Name" xml:space="preserve">
+    <value>B_Apply</value>
+  </data>
+  <data name="Lab_ScaleFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="TB_ScaleFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 179</value>
+  </data>
+  <data name="Lab_SP2.Text" xml:space="preserve">
+    <value>Standart Parallel 2:</value>
+  </data>
+  <data name="Lab_SP1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Lab_ScaleFactor.Name" xml:space="preserve">
+    <value>Lab_ScaleFactor</value>
+  </data>
+  <data name="CB_Projection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="Lab_SP2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TB_CentralMeridian.Name" xml:space="preserve">
+    <value>TB_CentralMeridian</value>
+  </data>
+  <data name="Lab_FalseNorthing.Text" xml:space="preserve">
+    <value>False Northing:</value>
+  </data>
+  <data name="TB_CentralMeridian.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="&gt;&gt;Lab_RefLat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Projection:</value>
+  </data>
+  <data name="&gt;&gt;CB_Projection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.2pt</value>
+  </data>
+  <data name="&gt;&gt;Lab_FalseNorthing.Parent" xml:space="preserve">
+    <value>GB_Parameters</value>
+  </data>
+  <data name="TB_RefLat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 43</value>
+  </data>
+  <data name="&gt;&gt;TB_RefLat.Name" xml:space="preserve">
+    <value>TB_RefLat</value>
+  </data>
+  <data name="Lab_RefLat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

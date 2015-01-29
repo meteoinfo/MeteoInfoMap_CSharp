@@ -1,0 +1,1 @@
+gifsicle.exe --delay 50 --loopcount=forever C:\Users\User\Desktop\try0.gif C:\Users\User\Desktop\try1.gif C:\Users\User\Desktop\try2.gif C:\Users\User\Desktop\try3.gif C:\Users\User\Desktop\try4.gif > C:\Users\User\Desktop\try.gif

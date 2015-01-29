@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<LegendScheme FieldName="" LegendType="GraduatedColor" ShapeType="Polygon" BreakNum="12" HasNoData="False" MinValue="0" MaxValue="25" UNDEF="9999">
+  <Breaks>
+    <Break Caption="&lt; 0.1" StartValue="0" EndValue="0.1" Color="#A000C8" DrawShape="False" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="0.1 - 0.5" StartValue="0.1" EndValue="0.5" Color="#6E00DC" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="0.5 - 1" StartValue="0.5" EndValue="1" Color="#1E3CFF" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="1 - 2" StartValue="1" EndValue="2" Color="#00A0FF" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="2 - 5" StartValue="2" EndValue="5" Color="#00C8C8" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="5 - 10" StartValue="5" EndValue="10" Color="#00DC00" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="10 - 15" StartValue="10" EndValue="15" Color="#A0E632" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="15 - 20" StartValue="15" EndValue="20" Color="#E6DC32" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="20 - 25" StartValue="20" EndValue="25" Color="#E6AF2D" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="25 - 50" StartValue="25" EndValue="50" Color="#F08228" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="50 - 100" StartValue="50" EndValue="100" Color="#FA3C3C" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="&gt; 100" StartValue="100" EndValue="1000" Color="#F00082" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+  </Breaks>
+</LegendScheme>

@@ -1,0 +1,126 @@
+<html>
+
+<head>
+  <title> MeteoInfo Script - MeteoInfo_Help</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;MeteoInfo Script</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>MeteoInfo could
+be run and output maps automatically using script application ‘MIScript.exe’
+which could be found in MeteoInfo installation folder. The script language is
+IronPython (<span class=MsoHyperlink><a href="http://ironpython.codeplex.com/">http://ironpython.codeplex.com/</a></span>).</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>There are some
+demo scripts in the ‘Script’ folder of the software.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>The script
+should be run in command window as following.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=553 height=217 src="temp.files/image102.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+border=0 width=554 height=391 src="temp.files/image103.jpg"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>The script
+content of the above example is following.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>import clr</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReferenceByPartialName(&quot;System.Windows.Forms&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReferenceByPartialName(&quot;System.Drawing&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from System.Windows.Forms import *</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from System.Drawing import *</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReference(&quot;MeteoInfoC.dll&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from MeteoInfoC import *</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp = MIApp()</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.OpenLayer(&quot;.\\Map\\country1.shp&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.SetLegendBreak(&quot;country1.shp&quot;,0,Color.Yellow,Color.Blue,1,True,False,True)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.OpenGrADSData(&quot;.\\Sample\\model.ctl&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.SetDrawType(&quot;shaded&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>t = 2</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.TimeIndex = t</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.Display(&quot;PS&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.MoveLayerToTop(&quot;country1.shp&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.SetTitle(&quot;MeteoInfo script demo&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.ProjectLayers(&quot;+proj=moll+lon_0=105&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>myApp.MapLayout.Refresh()</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>#myApp.SaveFigure(&quot;.\\try.png&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>Application.Run(myApp)</span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

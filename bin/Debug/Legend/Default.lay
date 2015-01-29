@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Layout>
+  <Layout BackColor="White" ForeColor="Black" SmoothingMode="Default" GridFontName="Arial" GridFontSize="8" PaperSizeName="Custom" PaperSizeWidth="500" PaperSizeHeight="750" Landscape="True">
+    <LayoutElements>
+      <LayoutMap ElementType="LayoutMap" Left="40" Top="36" Width="606" Height="425" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="Black" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="True" DrawGridTickLine="True" />
+      <LayoutIllustration ElementType="LayoutIllustration" Left="534" Top="333" Width="94" Height="119" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="Black" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridTickLine="False" Visible="False" MinLon="106.5" MaxLon="122.5" MinLat="1" MaxLat="23" />
+      <LayoutLegend ElementType="LayoutLegend" LegendStyle="Normal" FirstMeteoLayer="True" BackColor="Transparent" DrawNeatLine="False" NeatLineColor="Black" NeatLineSize="1" Left="656" Top="122" Width="70" Height="197" FontName="Arial" FontSize="7" />
+      <LayoutGraphic ElementType="LayoutGraphic" IsTitle="True" Left="184" Top="14" Width="262" Height="14">
+        <Graphic>
+          <Shape ShapeType="Point" Visible="True" Selected="False">
+            <Points>
+              <Point X="315" Y="21" />
+            </Points>
+          </Shape>
+          <Legend Color="Black" LegendType="LabelBreak" Text="MeteoInfo: Meteological Data Information System" Angle="0" FontName="Arial" FontSize="8" FontBold="True" YShift="6.624999" />
+        </Graphic>
+      </LayoutGraphic>
+    </LayoutElements>
+  </Layout>
+</Layout>

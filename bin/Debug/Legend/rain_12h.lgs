@@ -1,0 +1,13 @@
+<MeteoInfo file="rain_12h" type="LegendScheme">
+  <LegendScheme FieldName="Precipitation6h_Low" LegendType="GraduatedColor" ShapeType="Polygon" BreakNum="7" HasNoData="False" MinValue="0" MaxValue="25" UNDEF="9999">
+    <Breaks>
+      <Break Caption="&lt; 0.1" StartValue="0" EndValue="0.1" Color="#A000C8" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="False" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+      <Break Caption="0.1 - 5.0" StartValue="0.1" EndValue="5" Color="#F9FCD7" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+      <Break Caption="5.0 - 15.0" StartValue="5" EndValue="15" Color="#D1F9CD" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+      <Break Caption="15.0 - 30.0" StartValue="15" EndValue="30" Color="#A7FAC8" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+      <Break Caption="30.0 - 70.0" StartValue="30" EndValue="70" Color="#6CF2E1" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+      <Break Caption="70.0 - 140.0" StartValue="70" EndValue="140" Color="#12D7EF" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+      <Break Caption="&gt;140.0" StartValue="140" EndValue="1000" Color="#18A0E0" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+    </Breaks>
+  </LegendScheme>
+</MeteoInfo>

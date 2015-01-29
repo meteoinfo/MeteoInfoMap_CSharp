@@ -1,0 +1,46 @@
+<MeteoInfo name="Default" type="projectfile">
+  <Language Name="en" />
+  <MapFrames>
+    <MapFrame Name="New Map Frame" Active="True" Expanded="True" Order="0" Left="41" Top="48" Width="610" Height="408" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="Silver" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridLabel="True" GridFontName="Arial" GridFontSize="8" GridXDelt="10" GridYDelt="10" GridXOrigin="0" GridYOrigin="0" DrawGridTickLine="True" DrawDegreeSymbol="False">
+      <Extents xMin="-180" xMax="180" yMin="-90" yMax="83.6235961914063" />
+      <MapProperty BackColor="White" ForeColor="Black" SmoothingMode="Default" PointSmoothingMode="AntiAlias" XYScaleFactor="1.20000004768372" MultiGlobalDraw="True" SelectColor="Cyan" HighSpeedWheelZoom="True" />
+      <GridLine GridLineColor="Silver" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridTickLine="False" />
+      <MaskOut SetMaskLayer="False" MaskLayer="" />
+      <Projection IsLonLatMap="True" ProjStr=" +proj=lonlat +ellps=WGS84 +datum=WGS84 +no_defs= +k=1" RefLon="0" RefCutLon="180" />
+      <GroupLayer>
+        <Layer Handle="1" LayerName="country1.shp" FileName="..\..\..\..\..\..\Temp\Map\country1.shp" Visible="True" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polygon" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
+          <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polygon" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
+            <Breaks>
+              <Break Caption="" StartValue="0" EndValue="0" Color="#FFFBC3" DrawShape="True" OutlineColor="Gray" DrawOutline="True" DrawFill="False" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+            </Breaks>
+          </LegendScheme>
+          <LabelSet DrawLabels="False" FieldName="" FontName="Arial" FontSize="7" LabelColor="Black" DrawShadow="False" ShadowColor="White" AlignType="Center" Offset="0" AvoidCollision="True" AutoDecimal="True" DecimalDigits="2" />
+          <Graphics />
+          <ChartSet DrawCharts="False" ChartType="BarChart" FieldNames="" XShift="0" YShift="0" MaxSize="50" MinSize="0" MaxValue="0" MinValue="0" BarWidth="8" AvoidCollision="True" AlignType="Center" View3D="False" Thickness="5">
+            <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polygon" BreakNum="0" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="0">
+              <Breaks />
+            </LegendScheme>
+          </ChartSet>
+          <ChartGraphics />
+          <VisibleScale EnableMinVisScale="False" EnableMaxVisScale="False" MinVisScale="0" MaxVisScale="0" />
+        </Layer>
+      </GroupLayer>
+      <Graphics />
+    </MapFrame>
+  </MapFrames>
+  <Layout BackColor="White" ForeColor="Black" SmoothingMode="Default" PaperSizeName="Custom" PaperSizeWidth="500" PaperSizeHeight="750" Landscape="True">
+    <LayoutElements>
+      <LayoutMap ElementType="LayoutMap" Left="41" Top="48" Width="610" Height="408" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="Silver" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridLabel="True" GridFontName="Arial" GridFontSize="8" GridXDelt="10" GridYDelt="10" GridXOrigin="0" GridYOrigin="0" GridLabelPosition="LeftBottom" />
+      <LayoutGraphic ElementType="LayoutGraphic" IsTitle="False" Left="207" Top="14" Width="291" Height="18">
+        <Graphic>
+          <Shape ShapeType="Point" Visible="True" Selected="False">
+            <Points>
+              <Point X="352" Y="22" />
+            </Points>
+          </Shape>
+          <Legend Color="Black" LegendType="LabelBreak" Text="MeteoInfo - Meteorological data information" Angle="0" FontName="Arial" FontSize="10.8" FontBold="False" YShift="0" />
+        </Graphic>
+      </LayoutGraphic>
+    </LayoutElements>
+  </Layout>
+</MeteoInfo>

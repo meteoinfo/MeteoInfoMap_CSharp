@@ -1,0 +1,9 @@
+<LegendScheme FieldName="DUST" LegendType="GraduatedColor" ShapeType="Polygon" BreakNum="5" HasNoData="False" MinValue="0" MaxValue="6550.55465176702" UNDEF="-9999">
+  <Breaks>
+    <Break Caption="0 - 200" StartValue="0" EndValue="200" Color="White" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="False" OutlineSize="0.1" />
+    <Break Caption="200 - 500" StartValue="200" EndValue="500" Color="#FFFF80" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="0.1" />
+    <Break Caption="500 - 2000" StartValue="500" EndValue="2000" Color="Goldenrod" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="0.1" />
+    <Break Caption="2000 - 5000" StartValue="2000" EndValue="5000" Color="DarkOrange" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="0.1" />
+    <Break Caption="5000 - 20000" StartValue="5000" EndValue="20000" Color="Crimson" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="0.1" />
+  </Breaks>
+</LegendScheme>

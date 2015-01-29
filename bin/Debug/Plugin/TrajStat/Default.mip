@@ -1,0 +1,91 @@
+<MeteoInfo name="Default" type="projectfile">
+  <Language Name="en" />
+  <Extents xMin="63.5216392186901" xMax="144.950210647262" yMin="12.8686327077748" yMax="58.7131367292225" />
+  <MapProperty BackColor="White" ForeColor="Black" SmoothingMode="Default" />
+  <GridLine GridLineColor="DarkGray" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridTickLine="True" />
+  <MaskOut SetMaskLayer="False" MaskLayer="" />
+  <Projection IsLonLatMap="True" ProjStr=" +proj=lonlat +ellps=WGS84 +datum=WGS84 +no_defs= +k=1" RefLon="105" RefCutLon="-70" />
+  <GroupLayer>
+    <Group GroupHandle="1" GroupName="CWT" Expanded="False" />
+    <Group GroupHandle="2" GroupName="PSCF" Expanded="False" />
+    <Group GroupHandle="3" GroupName="Geo Data" Expanded="True">
+      <Layer Handle="1" LayerName="Global Relief" FileName="..\..\Map\GLOBALeb3colshade.jpg" Visible="False" IsMaskout="True" LayerType="ImageLayer" LayerDrawType="Image" TransparencyPerc="0" TransparencyColor="#565688" SetTransColor="False" />
+      <Layer Handle="2" LayerName="Country" FileName="..\..\Map\country1.shp" Visible="True" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polygon" AvoidCollision="True" TransparencyPerc="50" Expanded="False">
+        <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polygon" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
+          <Breaks>
+            <Break Caption="" StartValue="0" EndValue="0" Color="#FFFBC3" DrawShape="True" OutlineColor="Gray" DrawOutline="True" DrawFill="True" OutlineSize="0.1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
+          </Breaks>
+        </LegendScheme>
+        <LabelSet DrawLabels="False" FieldName="" FontName="Arial" FontSize="7" LabelColor="Black" DrawShadow="False" ShadowColor="White" AlignType="Center" Offset="0" AvoidCollision="True" />
+        <Graphics />
+      </Layer>
+      <Layer Handle="3" LayerName="China Border" FileName="..\..\Map\chinab.shp" Visible="True" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polyline" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
+        <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polyline" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
+          <Breaks>
+            <Break Caption="" StartValue="0" EndValue="0" Color="Fuchsia" DrawShape="True" Size="1" Style="Solid" DrawSymbol="False" SymbolSize="8" SymbolStyle="UpTriangle" SymbolColor="Red" SymbolInterval="1" />
+          </Breaks>
+        </LegendScheme>
+        <LabelSet DrawLabels="False" FieldName="" FontName="Arial" FontSize="7" LabelColor="Black" DrawShadow="False" ShadowColor="White" AlignType="Center" Offset="0" AvoidCollision="True" />
+        <Graphics />
+      </Layer>
+      <Layer Handle="4" LayerName="China Province" FileName="..\..\Map\province.shp" Visible="True" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polyline" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
+        <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polyline" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
+          <Breaks>
+            <Break Caption="" StartValue="0" EndValue="0" Color="DarkGray" DrawShape="True" Size="1" Style="Solid" DrawSymbol="False" SymbolSize="8" SymbolStyle="UpTriangle" SymbolColor="Red" SymbolInterval="1" />
+          </Breaks>
+        </LegendScheme>
+        <LabelSet DrawLabels="False" FieldName="" FontName="Arial" FontSize="7" LabelColor="Black" DrawShadow="False" ShadowColor="White" AlignType="Center" Offset="0" AvoidCollision="True" />
+        <Graphics />
+      </Layer>
+      <Layer Handle="5" LayerName="River" FileName="..\..\Map\rivers.shp" Visible="False" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polyline" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
+        <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polyline" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
+          <Breaks>
+            <Break Caption="" StartValue="0" EndValue="0" Color="Cyan" DrawShape="True" Size="2" Style="Solid" DrawSymbol="False" SymbolSize="8" SymbolStyle="UpTriangle" SymbolColor="Red" SymbolInterval="1" />
+          </Breaks>
+        </LegendScheme>
+        <LabelSet DrawLabels="False" FieldName="" FontName="Arial" FontSize="7" LabelColor="Black" DrawShadow="False" ShadowColor="White" AlignType="Center" Offset="0" AvoidCollision="True" />
+        <Graphics />
+      </Layer>
+      <Layer Handle="6" LayerName="CITIES.SHP" FileName="..\..\Map\CITIES.SHP" Visible="False" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Point" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
+        <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Point" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
+          <Breaks>
+            <Break Caption="" StartValue="0" EndValue="0" Color="Red" DrawShape="True" OutlineColor="Black" Size="5" Style="Circle" DrawOutline="True" DrawFill="True" IsNoData="False" MarkerType="Simple" FontName="Arial" CharIndex="0" ImagePath="" Angle="0" />
+          </Breaks>
+        </LegendScheme>
+        <LabelSet DrawLabels="True" FieldName="NAME" FontName="Arial" FontSize="9" LabelColor="Black" DrawShadow="False" ShadowColor="White" AlignType="Center" Offset="0" AvoidCollision="True" />
+        <Graphics />
+      </Layer>
+    </Group>
+    <Group GroupHandle="4" GroupName="Trajectory" Expanded="False" />
+    <Group GroupHandle="5" GroupName="Cluster" Expanded="False" />
+    <Group GroupHandle="6" GroupName="Station" Expanded="False" />
+  </GroupLayer>
+  <Graphics />
+  <Layout BackColor="White" ForeColor="Black" SmoothingMode="Default" PaperSizeName="Custom" PaperSizeWidth="500" PaperSizeHeight="750" Landscape="True">
+    <LayoutElements>
+      <LayoutMap ElementType="LayoutMap" Left="40" Top="36" Width="606" Height="425" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="DarkGray" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridLabel="True" GridFontName="Arial" GridFontSize="8" GridXDelt="10" GridYDelt="10" />
+      <LayoutIllustration ElementType="LayoutIllustration" Left="528" Top="318" Width="94" Height="119" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="Black" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="True" DrawGridTickLine="True" Visible="False" MinLon="106.5" MaxLon="122.5" MinLat="1" MaxLat="23" />
+      <LayoutLegend ElementType="LayoutLegend" LegendStyle="Normal" FirstMeteoLayer="True" BackColor="Transparent" DrawNeatLine="False" NeatLineColor="Black" NeatLineSize="1" Left="656" Top="122" Width="0" Height="0" FontName="Arial" FontSize="7" />
+      <LayoutGraphic ElementType="LayoutGraphic" IsTitle="False" Left="656" Top="130" Width="0" Height="20">
+        <Graphic>
+          <Shape ShapeType="WindArraw" Visible="True" Selected="False">
+            <Points>
+              <Point X="656" Y="130" />
+            </Points>
+          </Shape>
+          <Legend Color="Black" LegendType="VectorBreak" />
+        </Graphic>
+      </LayoutGraphic>
+      <LayoutGraphic ElementType="LayoutGraphic" IsTitle="True" Left="245" Top="13" Width="197" Height="14">
+        <Graphic>
+          <Shape ShapeType="Point" Visible="True" Selected="False">
+            <Points>
+              <Point X="343" Y="20" />
+            </Points>
+          </Shape>
+          <Legend Color="Black" LegendType="LabelBreak" Text="Air mass trajectory analysis package" Angle="0" FontName="Arial" FontSize="8" FontBold="True" YShift="6.624999" />
+        </Graphic>
+      </LayoutGraphic>
+    </LayoutElements>
+  </Layout>
+</MeteoInfo>

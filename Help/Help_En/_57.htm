@@ -1,0 +1,217 @@
+<html>
+
+<head>
+  <title> Other Functions - MeteoInfo_Help</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;Other Functions</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>ProjectLayers</span><span
+lang=EN-US style='color:blue'>(string </span><span lang=EN-US>projStr<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Project the plot by Proj4 string parameter. Please check Proj4 help
+document to know how to set projection string. Also some websites have the
+projection information, such as <a
+href="http://remotesensing.org/geotiff/proj_list/">http://remotesensing.org/geotiff/proj_list/</a>
+.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.ProjectLayers(&quot;+proj=moll+lon_0=105&quot;)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=FR style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>Zoom(double </span><span
+lang=FR>minX<span style='color:blue'>, double </span>maxX<span
+style='color:blue'>, double </span>minY<span style='color:blue'>, double </span>maxY<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Zoom the plot to the extent. Width and Height ratio of the map view
+will not be changed.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.Zoom(75, 135, 15, 55)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=FR style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>ZoomEx(double </span><span
+lang=FR>minX<span style='color:blue'>, double </span>maxX<span
+style='color:blue'>, double </span>minY<span style='color:blue'>, double </span>maxY<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Zoom the plot to the exact extent. Width and Heigh ratio of the map
+view will be changed to fit the extent.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.ZoomEx(0, 360, -90, 90)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SetMaskout</span><span
+lang=EN-US style='color:blue'>(string </span><span lang=EN-US>layerName<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Set maskout layer by layer name.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SetMaskout(&quot;china.shp&quot;)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SetIllustration</span><span
+lang=EN-US style='color:blue'>(bool </span><span lang=EN-US>visible<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Set illustration visible or not.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SetIllustration(True)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SaveFigure</span><span
+lang=EN-US style='color:blue'>(string </span><span lang=EN-US>aFile<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Save the plot to an image file.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SaveFigure(&quot;.\\try.png&quot;)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SetInterpolation</span><span
+lang=EN-US style='color:blue'>(double </span><span lang=EN-US>minX<span
+style='color:blue'>, double </span>maxX<span style='color:blue'>, double </span>minY<span
+style='color:blue'>, double </span>maxY<span style='color:blue'>, int </span>xNum<span
+style='color:blue'>, int </span>yNum<span style='color:blue'>, string </span>aInterMethod<span
+style='color:blue'>, float </span>radius<span style='color:blue'>, int </span>minNum<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Set interpolation parameters for interpolating station data to grid
+data.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SetInterpolation(60,140,-20,60,160,160,&quot;IDW_Radius&quot;,1,1)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SetLegendScheme</span><span
+lang=EN-US style='color:blue'>(string </span><span lang=EN-US>legendFile<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Set legend scheme by the legend file.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SetLegendScheme(&quot;.\\Legend\\rain.lgs&quot;)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SetLegendBreak</span><span
+lang=EN-US style='color:blue'>(string </span><span lang=EN-US>layerName<span
+style='color:blue'>, int </span>brkIdx<span style='color:blue'>, Color </span>aColor<span
+style='color:blue'>, Color </span>outlineColor<span style='color:blue'>, float </span>outlineSize<span
+style='color:blue'>, bool </span>drawOutline<span style='color:blue'>, bool </span>drawFill<span
+style='color:blue'>, bool </span>drawShape<span style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Set a legend break of the legend scheme of the layer by layer name.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SetLegendBreak(&quot;country1.shp&quot;,0,Color.Yellow,Color.Gray,1,True,False,True)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>SetTitle</span><span lang=EN-US
+style='color:blue'>(string </span><span lang=EN-US>aTitle<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Set the plot’s title.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.SetTitle(&quot;MeteoInfo script demo - Grid
+data calculation&quot;)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:Wingdings;color:blue'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=FR style='color:blue'>MoveLayerToTop</span><span
+lang=EN-US style='color:blue'>(string </span><span lang=EN-US>layerName<span
+style='color:blue'>)</span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Move the layer to the top of the layers, then the layer will be
+plotted on the top of other layers.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US>Example:</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:21.0pt'><span
+lang=EN-US style='color:blue'>myApp.MoveLayerToTop(&quot;country1.shp&quot;)</span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

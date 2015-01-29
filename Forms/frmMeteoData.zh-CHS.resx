@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 25</value>
+  </data>
+  <data name="TSB_Open.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACHSURBVDhPvVNBDsAgCOOnfsXf8Exmt0BUMKiHkTTL2FoK
+        KNFPIa2O4rgkiH3o+5w/EnZuzGIpJVN27YgINSCsz/6nVNzIKhI9MUS4Y2bncHCwEkkEPvs7bXTrtEE6
+        cq0kGdQRdjdUzoj4Prdj078hvw6AW7IJBMNxZyFcI5K7iM4AIbmL6LY8a+dOnADLoFkAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="TSMI_GrADSData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_GrADSData.Text" xml:space="preserve">
+    <value>GrADS 数据</value>
+  </data>
+  <data name="TSMI_GRIBData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_GRIBData.Text" xml:space="preserve">
+    <value>GRIB 数据</value>
+  </data>
+  <data name="TSMI_NetCDFData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_NetCDFData.Text" xml:space="preserve">
+    <value>NetCDF 数据</value>
+  </data>
+  <data name="TSMI_HDFData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_HDFData.Text" xml:space="preserve">
+    <value>HDF 数据</value>
+  </data>
+  <data name="TSMI_MICAPSData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_MICAPSData.Text" xml:space="preserve">
+    <value>MICAPS 数据</value>
+  </data>
+  <data name="TSMI_HYSPLITData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_HYSPLITData.Text" xml:space="preserve">
+    <value>HYSPLIT 数据</value>
+  </data>
+  <data name="TSMI_HYSPLITConc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 24</value>
+  </data>
+  <data name="TSMI_HYSPLITConc.Text" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="TSMI_HYSPLITParticle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 24</value>
+  </data>
+  <data name="TSMI_HYSPLITParticle.Text" xml:space="preserve">
+    <value>颗粒</value>
+  </data>
+  <data name="TSMI_HYSPLITTraj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 24</value>
+  </data>
+  <data name="TSMI_HYSPLITTraj.Text" xml:space="preserve">
+    <value>轨迹</value>
+  </data>
+  <data name="TSMI_ARLData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_ARLData.Text" xml:space="preserve">
+    <value>ARL 数据</value>
+  </data>
+  <data name="TSMI_ASCIIData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_ASCIIData.Text" xml:space="preserve">
+    <value>文本文件数据</value>
+  </data>
+  <data name="TSMI_LonLatStations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="TSMI_LonLatStations.Text" xml:space="preserve">
+    <value>站点（经纬度）</value>
+  </data>
+  <data name="TSMI_SYNOPData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="TSMI_METARData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="TSMI_METARData.Text" xml:space="preserve">
+    <value>METAR 数据</value>
+  </data>
+  <data name="TSMI_ISHData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="TSMI_ISHData.Text" xml:space="preserve">
+    <value>ISH 数据</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 6</value>
+  </data>
+  <data name="TSMI_ASCIIGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="TSMI_ASCIIGrid.Text" xml:space="preserve">
+    <value>ESRI ASCII 格点数据</value>
+  </data>
+  <data name="TSMI_SuferGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="TSMI_SuferGrid.Text" xml:space="preserve">
+    <value>Sufer ASCII 格点数据</value>
+  </data>
+  <data name="TSMI_AWXData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSMI_AWXData.Text" xml:space="preserve">
+    <value>AWX 数据</value>
+  </data>
+  <data name="TSMI_HRITData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="TSB_DataInfo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAM6SURBVFhHvZcxa1RBFIXzb+ziD7CRgI2NpWChXYhISkFi
+        QLBKE1SEdFEwXZqsYCIIK0QsTCBkERdlE4RkDWSxSCDNduN+o2e8Ozsz7yWBfXDz3s6buefcc+/ceZmY
+        qHkdnpy5Xu9XpXW7XT+nptvytE7nwGH9fj+YK1zM4+L+ubV3cSKKtAS8vb3rGo11D2Yv+1tEzqWGJBR4
+        KuDZhwtuauqWt8k7L0ZISAWRgSxKVhIROArEkYkIjgC+cu1VsJW1D8nE4ANfXPiGSJZECdyqgUPAr979
+        6B6vfvH35mYr5D5WTiSUjiQJnFrpFY6tAet4da3tbs5vegJPljdGwFMk2EWMo9ZIOhgQgRJ4ruBSROMC
+        hgD2vXfqlpZe/98hRC8Cdhvloo+rvASOb0XOPMC5P3u+4dPm60EVigJVkcD8+v2XwdgBGLLatYpWd72D
+        AEaPCCqIgGWaI0LubfXrmXHWxMD2t95DoNU+cmxlX5D8wSRPDK4tacdvzDV89WOQqENA+QccQzkaWZZA
+        KhqRePDoTdiKdQgQXJYA+bAKlGRUmuoQsKD2+dP+b4cFBahGCFCEVeB1CKjQ4rsUAJyghwgwQF5yBBRB
+        FYEcuMYF/nZrf7QGlIYUCTnQu1QKFGGJBIFic08X3e17M3+LkConDRgvbbQpGQG6CAF8Cwf5wzakGb1b
+        3wkvVSSpiHIKqBHlohc40tMFOU2H2rEOCRzBEhIpZyJFN1Qf4M7v1BrlXJHTL4ie+aEV63ymBlaa35zU
+        UGHa/KsTAsppOL3Y9MYz/YD1ccEJnHeAk/uh6O0HApOlgq0LpYX7+6/HPlprgNrfkEfuAD5QlqiRngIs
+        fh1RmZzxUkOK4BDHAopTxLhAWSvDlyIHvPhVJDW0VTyRAXvrUM9EB6AI8QxZC0zUOjGRvf3zR/V3oUgg
+        E4vYLhjV68nI/kUJMOaBB++YK7kBJ2pUpdNWfpTGE9gdSAYRHOEcp5yGUkYqqMjIM/MErP8rzg1uF9ij
+        GIeKEtCYAGR1trDuUsC5xciJzHyUWgKM+fY6josoAaRQKUSlYGwECJJ0kGtVfjhix6GAMDjMyDsH1FhT
+        EAfpW/lgG9ZqNGbxH1iN/BY1Dn3KAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_DataInfo.Text" xml:space="preserve">
+    <value>显示数据信息</value>
+  </data>
+  <data name="TSB_Draw.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF/SURBVDhPdVJPK0RxFL0fw3ZWSlmxksJCs5pZiVLKQrKw
+        0ezYCAkNkYTkb5qRNI2NbCyUlexmyUpZ2Cif4HjnuPf1Zqa5dZo7vzrn3Hvus66he+TydaGnWEPf+J0w
+        OHUrjM7coDhfESZK15heuhLmVi4FI9G8SIyeRO9FjHeRvBY2z2F0jQc6Rk/HpAeGc/oNiOS1uHcK6zSu
+        yJO9QKE7FXEySFw9OhEs65pIgxC5NADM9je5810kr/LFMSx2bSJv54HlkVSkdZIQOKgewrhrkFP34wLg
+        IpommaRV5Kx2AMKYcJtAZQxIREROqpNI9WEfxpuGQCbhlCyFFhG/iNWf9mC8awg0pevuKdkzIZnEx5dd
+        wcKVItmEFVBcxDPhf5G8nt92YPoYsmfxXgH9F5BkEmOL5PXaKMPoynsSdI10GRChPd2ZZJKIxvuWYPoY
+        2l3/A8qO6r1IXh+fGzDfVU86i1d2V42aJXn/9b0O48jZcSNdjhsjx7h0JIn4+V0T/gCF+t0oUQE57AAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_Draw.Text" xml:space="preserve">
+    <value>显示数据图形</value>
+  </data>
+  <data name="TSB_ViewData.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHhSURBVDhPrZPLTxpRFMb527rvptEmTY0udGG6aWKqC6LE
+        ECKKVI0YSqqIpNWoAUSUmFKFUgiPolSKRlukD/DBzIg8I2pjPu+9VmbGuLCJJ/lyMzfn/M53zswoFA8R
+        7z6fqCz+QtbyKQ+zV8DbVQFGDwfDyhFG3IfQu/bRv5CBxvYbvXNp9EzvQWn98aXe2+IXhGrtL/5Hr6Yi
+        Z3XApO+YFU9vT8CaNMG8OQZTfASG2CCGoloMhNTQBFTo9SvR7e1iuS/Ht1AHjK8J7PK+QXNfvEmIABOZ
+        l17OBLh7iea2GeIiYIws6wZAXcwFczIztrD8WSjV0DIcEwHDywcon15gPsTBRhXmYQ9zcEQ5OIkogJ7O
+        SA7u9Rx+HpXxTBcRAfrFLEoE4IjyrLPz33lj47aD1EEJjX0hEaB1/EGxegFXjMfSulwrcZ45YC6IAwfR
+        bqaIhr6gCFDP/0Khcg6aTOPjpiDbgecrT0YU3xIFtLyWjKCaTTOAhxTSYqnWEgLcG7xMFNCkk4ygfP8d
+        JwTg/Xbd2ZeUO7CTpUqDOdBLAJ3WHeTLZ+CLNRzmT5Hhq2TTFaT2S2zeu/RY57usf4kd5u1guzFZbTcm
+        0DoaR/NQDM91UTzVhvFEE7hTjzo/OB/iR1ZcAQk/odd7/IOtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_ViewData.Text" xml:space="preserve">
+    <value>显示数据</value>
+  </data>
+  <data name="TSB_ClearDrawing.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADDSURBVDhPY2CgJjilyfAfhHGZiVceJPn/zH8wxmYIXnm4
+        ZLPC//8gjGYIIXmGyQxA22Ga62T+/wdhqCFwzTBxqDqQHhSvgg0ploPgHBEIhnoJzofKY2iGmQQ2JEEU
+        gqO4UTFUHKdmFEN8eP7/x4IJagYZAvazFRNWjC+KwQ6AB5gx0BBsGEcUo2oGuQCXAdC0guESuM0gBUgG
+        gPwMDlhkA7EZAlaERTNKwKK5CiNAZyPZhC20kV2CNx3giyqYl6iZgRkAQTg+Ine/H0kAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="TSB_ClearDrawing.Text" xml:space="preserve">
+    <value>删除数据图形</value>
+  </data>
+  <data name="TSB_PreTime.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF0SURBVDhPzZLLKwRQFIevGcqrZGSKf8DGQpKSMJ7lMVMj
+        hkgpjIWSKI8VK6I0ZgYjmYmNwoKFBTNJ3nlkISsbJSQLkSnvPpdRXhszs3Hq17m3e8937jnnCvGvLShA
+        gc8PLK5rQQSrfQNk1jdzdg8iUOU9IL11CtctbFxKQEiad4DC2n4WrmH1EZzHEhCUgrbGQmnDKLm1FvLq
+        rOiMwxgaHR/g+M8EMe0jTAOdUqkbbnqlN0tZX8D0AINy3fcMdukH76DYtoCITPQAdMYmZuWBQ17W7DyQ
+        tfeEZvGcwvUbqrau0LtO0C6fol+7oGLplHK5LzDNIaKTv5QYnoC+Z4bqbShZcpM6tE2O44DsfidlE/vk
+        2dbROnYx2FaoHNukzTwvmxz3o0eqZJLsh+idNxRNHskM+QhVBkKdjYjSeKSWikjxBP8CyHKUobF0dA3Q
+        MzCBCPBhjO9NUajoNo3LjxTj3Ri/fVtFGOJNfpky3E+AX9n/GPwKdVXTD7yu58EAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_PreTime.Text" xml:space="preserve">
+    <value>上一时次</value>
+  </data>
+  <data name="TSB_NextTime.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFtSURBVDhPzZLLK8RRFMcvM8pjSkamxj9gYyFpSsJ4FmPU
+        TF6RUl4LJVEeK1ZEacZzJDOZjcKChcUYTfJukIWsbJSQLGSivPu4IwvJZn42Tn0799x7vp/O7V4h/n+o
+        NPxtyPAYRFCKI1JPv21WQrQKIWFaBuxuevrsqKITf4GokxBBxaYjdEZE/Jd0eQhtNiKhiJK5UyzeAGnO
+        E7ln+AGR5q6RFWpmdqlwbGB2HVDo2KbSfUTesJd81zEZE37KfA/U+cEysIjQpHyDJBgoti1TtXZOte8C
+        y9Y15nWZZV27d4tpO4Bx9Yrcw1eM+8+43mEJKG1q+4LEpWJ1eBh/BKc8GHqDcZltzzAmm0fkelAqY+eB
+        XpkXpPTdU9+vkfxZVLS6JHWSwsYxChpGKW+Zxlw/iohIx3sGmy/guQNTw3CIrxGVyc4NrN1DVud8iObg
+        aGotl0+Q09yuwBwEROqwNnYoNEt/RFi4crPi7x+K8QMBv9MPV/syigAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_NextTime.Text" xml:space="preserve">
+    <value>下一时次</value>
+  </data>
+  <data name="TSB_Animitor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIVSURBVFhH7ZdPTgIxFMaJ4RSuiQdwTTwAYckJXBNXnsR4
+        Co9hiCviAQxL4gEMS+I4v8I3fpROZqbUnSZN6fTP9+vre691NPr/y7TA+GpcMVV15jJ505YPy2o+m1eI
+        U9POW2ngLBdGPC5/CqIdp4QX178wjBu4r+7hEt98bKr9975ava6C2VVo0ye4ohCIsLDEAVBB2NuMcd/o
+        3lqPEXIyAUhAwnJEtWWJIlZI7R5B33XcLmqF+OwR1jm7BRyiKAALT++mwelOfOCltoKK+QRjHODiJOVe
+        3UBI+G15BrH93DZOqLk93Kx9iAPgD8HsACB+BHi+P/gE4n8KEELOxBGmKBQRx/xxtixigSbeawAX5jvC
+        sgAASlJy4GwAhSALedgpE7q4+oHhO+ViAD//GKCtrWNwgOwLqhRAVii6eOoIhlggKxxjgN3X7swPUhDx
+        EUxuJidvhl4OKXEyIAULyNO7fCHlA/H7oRPCJwiA8OoDoVSMEzI39XjpBPABumrP7gLL/34NA7B+X4dk
+        JADqQaIpABZU3OMPsU/I9IgLwJ9wxQB0FMr7qrVzxBFWyYqANgvICg6hM/druCjA4nZcUfQsA0JmTolq
+        POEXv6IHHwOLNdeurt+6doiQpKxPvx9nB2iPAqB6Q6TEN0/1y7gu9OmsU+I+zhNRb3H9v8fiWsxrANhZ
+        eIgcd982TgCDxAWQSiI537rEfwCyYQ2UmO549AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_Animitor.Text" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="TSB_CreateAnimatorFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHdSURBVFhH1VeLrYMwDOwsXYGd2Ck7dQVmyasDFx3Gn0Bp
+        pVcpgpJgn89fHo9//KuEXe75/9fN2ikvZaqyfgkCAOo0NctvBQBLPEq7UlHMAD5loSl+vea2INigte1h
+        n+8/AdCU1lp2i4VzwDXlT2NddIWpHGAMEE05nuvrxth4RliWMxNCq0U5ns3zmgF8jtyXp6Om3fpvARCF
+        GjxiR7EWszECQFsnCjzmNIiUjSsABFD0HoMAU26RGgGgrcoAiEy4gZkyQdwJAMEoMgEa8t1yfRcAUbAs
+        S1tgSFgQ+bxnsRD6E9bo3NfAoWSa174ANwCAPMeeBpECaCVWFR8dBziDxgTgoP75rpKyvHLtgrCUI8A0
+        C6iCeC5xgCxAKuNquoKbEV62LNc1AFbqq25sDCZqXNyOzXTSke0FMilpcuACnJcyntfqrUUfg+7YPRFw
+        KuVCIzIAZmyUclTONYAZQlx4pfsSACsFPTcglrz9CECanqNFLGpcXwcQMZNN0eGkFAnWe8yA3J+ZmoZB
+        IAiR+1yMoDDK/dAVQG21YbKmW8YFCaM7T9EZ9RaY/iFiKJTzuyGVz/TxjHrJFQBpunpTMthwpudM7qn9
+        w6jOLjs9K55SvR7eAbDipX9xbe6Qd/4Aksqr/sGNp9sAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_CreateAnimatorFile.Text" xml:space="preserve">
+    <value>创建动画文件</value>
+  </data>
+  <data name="TSB_DrawSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFnSURBVDhPY2AAgmM3P/9PmHafaAxSD9IHB/FT7v6/+ODb
+        f2IASB1IPYoBcZPugPUGn/j/n2EdBP9/wYDAdUA2CC8PBquLBapHMSB64k2wBEwz2IDvQA0wDDMARAMB
+        SD2KAVF910gyILL3OqoB4d1X/v/+/ZsoF4DUmc6R+W88RQ5hSGjHhf9///4lygCQ5o3f8/7HnZX9b9Ct
+        ADEkuPUcUV740AwJF7fD4v/t94oiDAhsOkXQgEtpTGDNf3cz/P8+k+E/Xw0Dwgt+9cD4wxMLMM3/9kI0
+        Hw1mRA1En5ojOA2A23xMFq4ZpB4lGj0rD2FNSDA//0XSvPHAnf+eVYdQDfCo2I+RlOGa90CcfSSQ6T9I
+        86yNN/6D1KO4YNWRx//dSvcC8b7/bmX7/oOc/e//LzANMgikObRmDxiD5Dcdf45qAIppQA7EgE///z9Z
+        /P94MAt+xeiaQfz11gz/D7gx/D8bzUlQMwBxDC6pHbaDqwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_DrawSetting.Text" xml:space="preserve">
+    <value>图例设置</value>
+  </data>
+  <data name="TSB_Setting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD9SURBVFhH7VVBEsQgCPPp/twtWhQY0UWtPdTO9FKVhCRY
+        585zFLApEK7t2murNLgbwOPjnQ/43qQGS9qOva4A0GUq7OwetfomgZb3co2miq7Z0iZ2Z9nlBHSmIbgQ
+        lpAYVwAIeL+EhJQQi2rSlu6BQCExZUXNXxxNSiiBU+DHCQAg+i3B+fVtUgASpEktv5eu4cwC3yO4/59A
+        soL7zabH0roErxWqKZO+TYaOgRMFKAkdHBWbIJF9B3CwgeQgAldyUZvz4dlnl44kIcjQH9Sw371s5CAa
+        7OjVNK/TaXisU/VKFZ33rmBzd60DWufbSLSSvI1EU6Glep9in1TgBwFAEZ8plQXWAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_Setting.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="TSB_SectionPlot.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFoSURBVFhH7VfREoQgCPTT+7T+rBsyDGkRyKZerqbpsmSX
+        dUWvlFK2r651XQm7bF8chPsn8LkCy7LMe+Cuh6hfR4AbMoaUsyfTj769EODGaKATnILVgJljSoEKzsDy
+        HicxpYBNIK7EbQXG4PHhSCvQj7k1BFUB9gT3Qd4IKzAcb2WEjDdCCqCA0n2784+r/90bE80SVwEtpWH7
+        tpKi99cEzlkyVEBmIzPUGXvPFilYiGQlRAQsIhqkGQ8UClmsXA9oEjKwR5BIof5yNrgeYJmsjPZ2fYJZ
+        0ciouegqoNkCuGpAPhEhenfsfHQtCClwIcEgGhgREXtNikObD3lPKWCqYSlwrIwaVD6nFTDVkD5g84GM
+        QwpI46H6rTOAJgyAmxsSlCW3ITm1CdFY634cD3rAWrVkAUFu5vcWWGg19LZTrR4YHzK4FyetwCjjKNgj
+        CjxNJOyBmSxHfTsCPL5v3/c/JmQeeVHjm9cPWQlerAGL94gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_SectionPlot.Text" xml:space="preserve">
+    <value>截面图</value>
+  </data>
+  <data name="TSB_1DPlot.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADWSURBVFhH7VVbCoAwDNv9Lz0VXamzT5kZosLAj7ImaZOV
+        8n+7ApWdKZp8A8DKsm5HkvhxBVpzOADeGK4AbzhNgTbvJj18BIfH1eVjACkLwjmgsekviNSlXeDNlEs/
+        HIC0XJpskeapKJasZCyWO/v0DkjNNFBR9mEFnCChiLXqjFHZLvAu7RMvbKWj0HVBVM5onWBVXQGPfZZt
+        +jW8yyoDTB0BornqAoT0Zg6g2IsKINlfAKCbiwAyGzyillwwg/1JAeTiceV4DiD/CQOyqfvujNip99yx
+        AOyrEvzg/WvUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_1DPlot.Text" xml:space="preserve">
+    <value>一维图</value>
+  </data>
+  <data name="GB_DataSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 222</value>
+  </data>
+  <data name="CHB_NewVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="CHB_NewVariable.Text" xml:space="preserve">
+    <value>新变量</value>
+  </data>
+  <data name="CHB_ColorVar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="CHB_ColorVar.Text" xml:space="preserve">
+    <value>变量着色</value>
+  </data>
+  <data name="Lab_DrawType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="Lab_DrawType.Text" xml:space="preserve">
+    <value>图形类型:</value>
+  </data>
+  <data name="Lab_Var.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="Lab_Var.Text" xml:space="preserve">
+    <value>要素:</value>
+  </data>
+  <data name="Lab_Level.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="Lab_Level.Text" xml:space="preserve">
+    <value>高度:</value>
+  </data>
+  <data name="Lab_Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="Lab_Time.Text" xml:space="preserve">
+    <value>时次:</value>
+  </data>
+  <data name="B_RemoveAllData.Text" xml:space="preserve">
+    <value>移除全部</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>482, 256</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>气象数据</value>
+  </data>
+</root>

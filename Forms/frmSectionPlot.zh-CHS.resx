@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CHB_NewVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="CHB_NewVariable.Text" xml:space="preserve">
+    <value>新变量</value>
+  </data>
+  <data name="CHB_YReverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 19</value>
+  </data>
+  <data name="CHB_YReverse.Text" xml:space="preserve">
+    <value>Y轴反转</value>
+  </data>
+  <data name="CHB_ColorVar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="CHB_ColorVar.Text" xml:space="preserve">
+    <value>变量着色</value>
+  </data>
+  <data name="Lab_PlotDims.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="Lab_PlotDims.Text" xml:space="preserve">
+    <value>图形维:</value>
+  </data>
+  <data name="lab_Max.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="lab_Max.Text" xml:space="preserve">
+    <value>最大值:</value>
+  </data>
+  <data name="lab_Min.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="lab_Min.Text" xml:space="preserve">
+    <value>最小值:</value>
+  </data>
+  <data name="CHB_Lon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="CHB_Lon.Text" xml:space="preserve">
+    <value>经度/X</value>
+  </data>
+  <data name="CHB_Lat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="CHB_Lat.Text" xml:space="preserve">
+    <value>纬度/Y</value>
+  </data>
+  <data name="CHB_Level.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="CHB_Level.Text" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="CHB_Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="CHB_Time.Text" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="GB_Dimentions.Text" xml:space="preserve">
+    <value>维设置</value>
+  </data>
+  <data name="Lab_DrawType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="Lab_DrawType.Text" xml:space="preserve">
+    <value>图形类型:</value>
+  </data>
+  <data name="Lab_Var.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="Lab_Var.Text" xml:space="preserve">
+    <value>要素:</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 472</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>图层</value>
+  </data>
+  <data name="TSB_DataInfo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAM6SURBVFhHvZcxa1RBFIXzb+ziD7CRgI2NpWChXYhISkFi
+        QLBKE1SEdFEwXZqsYCIIK0QsTCBkERdlE4RkDWSxSCDNduN+o2e8Ozsz7yWBfXDz3s6buefcc+/ceZmY
+        qHkdnpy5Xu9XpXW7XT+nptvytE7nwGH9fj+YK1zM4+L+ubV3cSKKtAS8vb3rGo11D2Yv+1tEzqWGJBR4
+        KuDZhwtuauqWt8k7L0ZISAWRgSxKVhIROArEkYkIjgC+cu1VsJW1D8nE4ANfXPiGSJZECdyqgUPAr979
+        6B6vfvH35mYr5D5WTiSUjiQJnFrpFY6tAet4da3tbs5vegJPljdGwFMk2EWMo9ZIOhgQgRJ4ruBSROMC
+        hgD2vXfqlpZe/98hRC8Cdhvloo+rvASOb0XOPMC5P3u+4dPm60EVigJVkcD8+v2XwdgBGLLatYpWd72D
+        AEaPCCqIgGWaI0LubfXrmXHWxMD2t95DoNU+cmxlX5D8wSRPDK4tacdvzDV89WOQqENA+QccQzkaWZZA
+        KhqRePDoTdiKdQgQXJYA+bAKlGRUmuoQsKD2+dP+b4cFBahGCFCEVeB1CKjQ4rsUAJyghwgwQF5yBBRB
+        FYEcuMYF/nZrf7QGlIYUCTnQu1QKFGGJBIFic08X3e17M3+LkConDRgvbbQpGQG6CAF8Cwf5wzakGb1b
+        3wkvVSSpiHIKqBHlohc40tMFOU2H2rEOCRzBEhIpZyJFN1Qf4M7v1BrlXJHTL4ie+aEV63ymBlaa35zU
+        UGHa/KsTAsppOL3Y9MYz/YD1ccEJnHeAk/uh6O0HApOlgq0LpYX7+6/HPlprgNrfkEfuAD5QlqiRngIs
+        fh1RmZzxUkOK4BDHAopTxLhAWSvDlyIHvPhVJDW0VTyRAXvrUM9EB6AI8QxZC0zUOjGRvf3zR/V3oUgg
+        E4vYLhjV68nI/kUJMOaBB++YK7kBJ2pUpdNWfpTGE9gdSAYRHOEcp5yGUkYqqMjIM/MErP8rzg1uF9ij
+        GIeKEtCYAGR1trDuUsC5xciJzHyUWgKM+fY6josoAaRQKUSlYGwECJJ0kGtVfjhix6GAMDjMyDsH1FhT
+        EAfpW/lgG9ZqNGbxH1iN/BY1Dn3KAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_DataInfo.Text" xml:space="preserve">
+    <value>显示数据信息</value>
+  </data>
+  <data name="TSB_Draw.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF/SURBVDhPdVJPK0RxFL0fw3ZWSlmxksJCs5pZiVLKQrKw
+        0ezYCAkNkYTkb5qRNI2NbCyUlexmyUpZ2Cif4HjnuPf1Zqa5dZo7vzrn3Hvus66he+TydaGnWEPf+J0w
+        OHUrjM7coDhfESZK15heuhLmVi4FI9G8SIyeRO9FjHeRvBY2z2F0jQc6Rk/HpAeGc/oNiOS1uHcK6zSu
+        yJO9QKE7FXEySFw9OhEs65pIgxC5NADM9je5810kr/LFMSx2bSJv54HlkVSkdZIQOKgewrhrkFP34wLg
+        IpommaRV5Kx2AMKYcJtAZQxIREROqpNI9WEfxpuGQCbhlCyFFhG/iNWf9mC8awg0pevuKdkzIZnEx5dd
+        wcKVItmEFVBcxDPhf5G8nt92YPoYsmfxXgH9F5BkEmOL5PXaKMPoynsSdI10GRChPd2ZZJKIxvuWYPoY
+        2l3/A8qO6r1IXh+fGzDfVU86i1d2V42aJXn/9b0O48jZcSNdjhsjx7h0JIn4+V0T/gCF+t0oUQE57AAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_Draw.Text" xml:space="preserve">
+    <value>显示数据图形</value>
+  </data>
+  <data name="TSB_ClearDrawing.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADDSURBVDhPY2CgJjilyfAfhHGZiVceJPn/zH8wxmYIXnm4
+        ZLPC//8gjGYIIXmGyQxA22Ga62T+/wdhqCFwzTBxqDqQHhSvgg0ploPgHBEIhnoJzofKY2iGmQQ2JEEU
+        gqO4UTFUHKdmFEN8eP7/x4IJagYZAvazFRNWjC+KwQ6AB5gx0BBsGEcUo2oGuQCXAdC0guESuM0gBUgG
+        gPwMDlhkA7EZAlaERTNKwKK5CiNAZyPZhC20kV2CNx3giyqYl6iZgRkAQTg+Ine/H0kAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="TSB_ClearDrawing.Text" xml:space="preserve">
+    <value>删除数据图形</value>
+  </data>
+  <data name="TSB_PreTime.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF0SURBVDhPzZLLKwRQFIevGcqrZGSKf8DGQpKSMJ7lMVMj
+        hkgpjIWSKI8VK6I0ZgYjmYmNwoKFBTNJ3nlkISsbJSQLkSnvPpdRXhszs3Hq17m3e8937jnnCvGvLShA
+        gc8PLK5rQQSrfQNk1jdzdg8iUOU9IL11CtctbFxKQEiad4DC2n4WrmH1EZzHEhCUgrbGQmnDKLm1FvLq
+        rOiMwxgaHR/g+M8EMe0jTAOdUqkbbnqlN0tZX8D0AINy3fcMdukH76DYtoCITPQAdMYmZuWBQ17W7DyQ
+        tfeEZvGcwvUbqrau0LtO0C6fol+7oGLplHK5LzDNIaKTv5QYnoC+Z4bqbShZcpM6tE2O44DsfidlE/vk
+        2dbROnYx2FaoHNukzTwvmxz3o0eqZJLsh+idNxRNHskM+QhVBkKdjYjSeKSWikjxBP8CyHKUobF0dA3Q
+        MzCBCPBhjO9NUajoNo3LjxTj3Ri/fVtFGOJNfpky3E+AX9n/GPwKdVXTD7yu58EAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_PreTime.Text" xml:space="preserve">
+    <value>上一时次</value>
+  </data>
+  <data name="TSB_NextTime.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFtSURBVDhPzZLLK8RRFMcvM8pjSkamxj9gYyFpSsJ4FmPU
+        TF6RUl4LJVEeK1ZEacZzJDOZjcKChcUYTfJukIWsbJSQLGSivPu4IwvJZn42Tn0799x7vp/O7V4h/n+o
+        NPxtyPAYRFCKI1JPv21WQrQKIWFaBuxuevrsqKITf4GokxBBxaYjdEZE/Jd0eQhtNiKhiJK5UyzeAGnO
+        E7ln+AGR5q6RFWpmdqlwbGB2HVDo2KbSfUTesJd81zEZE37KfA/U+cEysIjQpHyDJBgoti1TtXZOte8C
+        y9Y15nWZZV27d4tpO4Bx9Yrcw1eM+8+43mEJKG1q+4LEpWJ1eBh/BKc8GHqDcZltzzAmm0fkelAqY+eB
+        XpkXpPTdU9+vkfxZVLS6JHWSwsYxChpGKW+Zxlw/iohIx3sGmy/guQNTw3CIrxGVyc4NrN1DVud8iObg
+        aGotl0+Q09yuwBwEROqwNnYoNEt/RFi4crPi7x+K8QMBv9MPV/syigAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_NextTime.Text" xml:space="preserve">
+    <value>下一时次</value>
+  </data>
+  <data name="TSB_Animitor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIVSURBVFhH7ZdPTgIxFMaJ4RSuiQdwTTwAYckJXBNXnsR4
+        Co9hiCviAQxL4gEMS+I4v8I3fpROZqbUnSZN6fTP9+vre691NPr/y7TA+GpcMVV15jJ505YPy2o+m1eI
+        U9POW2ngLBdGPC5/CqIdp4QX178wjBu4r+7hEt98bKr9975ava6C2VVo0ye4ohCIsLDEAVBB2NuMcd/o
+        3lqPEXIyAUhAwnJEtWWJIlZI7R5B33XcLmqF+OwR1jm7BRyiKAALT++mwelOfOCltoKK+QRjHODiJOVe
+        3UBI+G15BrH93DZOqLk93Kx9iAPgD8HsACB+BHi+P/gE4n8KEELOxBGmKBQRx/xxtixigSbeawAX5jvC
+        sgAASlJy4GwAhSALedgpE7q4+oHhO+ViAD//GKCtrWNwgOwLqhRAVii6eOoIhlggKxxjgN3X7swPUhDx
+        EUxuJidvhl4OKXEyIAULyNO7fCHlA/H7oRPCJwiA8OoDoVSMEzI39XjpBPABumrP7gLL/34NA7B+X4dk
+        JADqQaIpABZU3OMPsU/I9IgLwJ9wxQB0FMr7qrVzxBFWyYqANgvICg6hM/druCjA4nZcUfQsA0JmTolq
+        POEXv6IHHwOLNdeurt+6doiQpKxPvx9nB2iPAqB6Q6TEN0/1y7gu9OmsU+I+zhNRb3H9v8fiWsxrANhZ
+        eIgcd982TgCDxAWQSiI537rEfwCyYQ2UmO549AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_Animitor.Text" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="TSB_DrawSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFnSURBVDhPY2AAgmM3P/9PmHafaAxSD9IHB/FT7v6/+ODb
+        f2IASB1IPYoBcZPugPUGn/j/n2EdBP9/wYDAdUA2CC8PBquLBapHMSB64k2wBEwz2IDvQA0wDDMARAMB
+        SD2KAVF910gyILL3OqoB4d1X/v/+/ZsoF4DUmc6R+W88RQ5hSGjHhf9///4lygCQ5o3f8/7HnZX9b9Ct
+        ADEkuPUcUV740AwJF7fD4v/t94oiDAhsOkXQgEtpTGDNf3cz/P8+k+E/Xw0Dwgt+9cD4wxMLMM3/9kI0
+        Hw1mRA1En5ojOA2A23xMFq4ZpB4lGj0rD2FNSDA//0XSvPHAnf+eVYdQDfCo2I+RlOGa90CcfSSQ6T9I
+        86yNN/6D1KO4YNWRx//dSvcC8b7/bmX7/oOc/e//LzANMgikObRmDxiD5Dcdf45qAIppQA7EgE///z9Z
+        /P94MAt+xeiaQfz11gz/D7gx/D8bzUlQMwBxDC6pHbaDqwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_DrawSetting.Text" xml:space="preserve">
+    <value>图例设置</value>
+  </data>
+  <data name="TSB_None.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABwSURBVDhPpdNBDsAgCARAD7ydd/GzNnsgIRtRQG42Otno
+        di0aEfn4W2sN4AnBYTObIwAwY8SBMRKBEcJAG9kBLSQDysgJAKKq5yfOAC/YtWjcA/QBU24nNsaY3sxy
+        sTiiA+UUu6ie6nqB2W8bL5D3/Jmo62yemkU4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_None.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="TSB_ZoomIn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEtSURBVDhPY2CAghi/8//DPS+iYJAYTB4vDdK4defT/6ff
+        /vt/9fPf/w9+/f1/+9uf/1u2vAQbiFczyJa1G17+P/IGojnIbz4YP/2DMASvS0A2rLnx9/+5z/8xDAAZ
+        cuTpb/yuABmw59FvuM0wF4DokID5YEPxegMkuenhP6wGgAwBhQtBA2BeAHkD5gKQzSAMch1eA0ABtGrd
+        S7BCdANAAbtl++P/BKMTZAPIEJBzYYEJsn31ukf/K4pO/d8/J+P/y2n8+KMTPRGB+CCbZ2TZ/v93q+7/
+        78fN/59OEyUuYSEnnAWOvP9fzxT////tbLAhTyYRcAm2VAc35PlksCHPZoiT55KX08XALvl2seD/nXn2
+        5BlyrUf6//q5k/+X5E0n3QCQ90DeIVsztvABAEJlS8y2jG1aAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_ZoomIn.Text" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="TSB_ZoomOut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEkSURBVDhPY2CAghi/8//DPS+iYJAYTB4vDdK4defT/6ff
+        /vt/9fPf/3d//vt/+9uf/1u2vAQbiFczyJa1G17+P/IGohlmwNM/f+GG4HUJyIY1N/7+P/cZ0wCQIUee
+        /sbvCpABex79/h8dtg4rBrkIrzdAkpse/sNpAChcCBoA8wLIG8heAdkOch1eA0ABtGrdS7BCmAEwQ0AB
+        u2X74/8EoxNkA8gQkHORXbB63aP/FUWn/u+fk/H/5TR+/NGJnohAfJDNM7Js//+7Vff/9+Pm/0+niRKX
+        sJATzgJH3v+vZ4r///92NtiQJ5MIuARbqoMb8nwy2JBnM8TJc8nL6WJgl3y7WPD/zjx78gy51iP9f/3c
+        yf9L8qaTbgDIeyDvkK0ZW/gAAELNWXxL3xLIAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_ZoomOut.Text" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="TSB_Pan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEaSURBVDhPbVPbEcMgDGMndmKnLtBheozSj25ALckGO0nu
+        SIixJflBa+mZ37WwYMJ3zLX6a65mK9tjn2Phs7oHwOH9+fG/jRdX2ASq8wKw2cx5zCkAsNt/t8OiyGwg
+        vCmAjNYHAwuApwASKTopbRAwkBEA5vAEAOlU5ICsBVCJbA/z8pyxD8ZhAawRUxI4U0YcUe0ATlsF6gCb
+        S0Yg9/aNvdQYIF9g9dyJ6o4BjiB1RAB5bwoOgAIFsIG9aNvmc4FzdiLLjgqHIqjiKiCaC6RY2pgLWAPV
+        tpjI3IUCgB8MkNjuzNFCsl+HKJBqOroDLNquiwGne3FTcFR4EaNgPmBiv+T+hLI740MVhYwJfGS+XmtU
+        WfLPut1AC/oDrx4HE7LyRXEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_Pan.Text" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="TSB_FullExent.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIvSURBVDhPdZNPSBRhGMa/cSAr6CK6GXipjEgjod21QxBk
+        f1bbwLRxK6KC2rFWyUCUxbxFjSMVFKQLnWL3sKitGR1i2ZO7WtTClnYI8RRLEAZBdKiD8vS977TOrjsN
+        PAzfN+/ze953Zj4hHK7bmRVslFNd2d70j0U29uWeo3/hPjpnH+DcXCdOp2agTa2w/gsiM5mM5RmM50mj
+        GFg8iY50NXZEz0Dc/YamSJ7ldrtLQWSmpMFPNxH/HgetSXeWwjg/3whXzGCAGHgLxTBZJZBDr+q5cPiz
+        hkg+h9e/knjz+yNDtEwWVdFZBqhmGCIs4AkZNoDmogfHU3XQsx7ugkCUbi7/gS+1CmVMSqYKo5kBqt6M
+        Vv2RBak2v8rWlrAvUc8QmlnLeND3IYeu9CpqYmsMEPd02YXCgE26ywaIngUGbB6/il2JCjROncKBRISN
+        257BMtP8lD5cy+mkpo7ef2ME36MAoVEqxwYZppg5iNGfLPXWY05mhRTUBVtsQO31OQgtaUGGvnA3nDay
+        2zLKtdr7AsqNNqjBvajRG+Du1m3A/lAW4tikBSl0Ew6sJzLkYhrCP49K3wgOdl9Gw9mHaL8Qsr+Ecjhq
+        QfwvGVQRiHGrlMp78hnVuHxP+OURoOQ/oC4U71NLsnBrez+2XPKur2l/+4kJeAMpeLviOOq/Uv43EnGP
+        TKNCSiBVHZnAztZJNrZdeyfnni56+w6ngiAkKi4WAQptl50Dp9NVAG28O9X+BeEHw+zou00tAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="TSB_FullExent.Text" xml:space="preserve">
+    <value>全部范围</value>
+  </data>
+  <data name="TSB_ZoomToLayer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACtSURBVDhPtZNNCoQwDIW9WY/pEeoZ5greQNDFLGYxi5ZC
+        99HX8TGh9EcXFh5B0nx5mHQYsmOtFa08X/1GkTGmKOSaIBYjTptPGpefdK7b/fX2AmkAIHBWdcEO69fL
+        /PmLThirEAKcc0IBBtER4i0AQITQWRcQQkgOYoxJuZtL/wEQAkSdZjFGo0dFAGAQc8e1+iQ0pLRMKFZq
+        L2dplc8duA4ptXgE0n0jjzuBgx2Sx3Dc7IkOMwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="TSB_ZoomToLayer.Text" xml:space="preserve">
+    <value>选中图层范围</value>
+  </data>
+  <data name="TSB_ZoomToLayer.ToolTipText" xml:space="preserve">
+    <value>选中图层范围</value>
+  </data>
+  <data name="TSB_Identifer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACNSURBVFhH7ZZRCsAgDEO9/6U73ajWUeh+TBhEEPwYJL52
+        sa1p/ZyAdf++GVexLu77NgJbj7BFA+OMM7FuvplgGJglwBIYtQ71x4t7s7H/AljTl0IUEkEUlwWJKDaM
+        Xp2PDyI6gdiNCQ1cEiZBhA8jERABERABCoHiLZhpeGxCLl7D809znHy+nMtRSh9cpPQS/Ad+JPAAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_Identifer.Text" xml:space="preserve">
+    <value>图元属性</value>
+  </data>
+  <data name="TSB_LabelSet.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABUSURBVDhPY2AYtuA/0GfEYoxA+P//PwPRGF03ikaQK5AN
+        Q3YVTBzZAAxbsRkA0ogsDjIARQDdRrq4AKc30P1MKAxgBhEdA9DwwJqWiU0DIHUjHgAAca33CSEqQXIA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TSB_LabelSet.Text" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="TSB_LabelSet.ToolTipText" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="TSMI_LayoutProp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="TSMI_LayoutProp.Text" xml:space="preserve">
+    <value>版面</value>
+  </data>
+  <data name="TSMI_MapProp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="TSMI_MapProp.Text" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="TSMI_InsertLegend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="TSMI_InsertLegend.Text" xml:space="preserve">
+    <value>插入图例</value>
+  </data>
+  <data name="TSMI_InsertText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="TSMI_InsertText.Text" xml:space="preserve">
+    <value>插入文字</value>
+  </data>
+  <data name="In.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABYSURBVDhPY2CgEvgPNIdUDLcapJEcANcHY5DiApCFWAz4
+        DwEMeGgkjZgGgPQ1NDTAMVbDEDbTwQXIrgGxwS4a5i4gITViTQekpkaUFExKKkSOCVItpYF6ABhTH4nB
+        mwN3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_PageSet.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="TSB_PageSet.Text" xml:space="preserve">
+    <value>页面设置</value>
+  </data>
+  <data name="TSB_SavePicture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEYSURBVFhH7ZfBDYMwDEWZtnNx6KmzsAKzuP0BB+PGcQQG
+        cUglq2lJ8l8+tgXDsHzo5lhlV/GfOnF8xBhQE9FfjOObOOZ5TmN8IzCf/8N6em17s8Z62AyRxTHBAyiJ
+        S/dYHCAWAHQkRDOAJS4dxMaeA9qJJgDL9nRKddsw13NAuuACWOJZxMib2i1oBqglHKwuOcCJGwogs50z
+        /TYHdKlxybE7sgr49LgW4oB1ctkHdK8IS0KRKIc6ZaqOQiPyyxCLIkOVahVA1vTVY+6GSx+YVBjUGSpg
+        /gagN+PfFkTQfB8AQhrCEregK/PbADzBE9efC3DV05FO9KIDqX2esLW6lvZ7d4DuQHegO9AdeIwDeEs9
+        9NAZsG74AirmLvgMZxZLAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TSB_SavePicture.Text" xml:space="preserve">
+    <value>保存图形</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AABABgAAYAYAAAAAAABsBgAAbTYAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>截面图</value>
+  </data>
+</root>

@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <title> 加载CLR和.NET类库 - MeteoInfo_Help_Chinese</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;加载CLR和.NET类库</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>IronPython</span><span
+style='font-family:宋体'>的一个重要特点是能够直接调用</span><span lang=EN-US>.Net</span><span
+style='font-family:宋体'>平台强大的类库。</span><span lang=EN-US>.Net</span><span
+style='font-family:宋体'>平</span> <span style='font-family:宋体'>台的核心是</span><span
+lang=EN-US>CLR</span><span style='font-family:宋体'>（</span><span lang=EN-US>Common
+Language Runtime</span><span style='font-family:宋体'>，公共语言运行时），</span><span
+lang=EN-US>IronPython</span><span style='font-family:宋体'>调用</span><span
+lang=EN-US>.Net</span><span style='font-family:宋体'>类库首先要</span><span
+lang=EN-US>import clr</span><span style='font-family:宋体'>，然后加载各种命名空间，再从命名空间中引入类。</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>编写</span><span
+lang=EN-US>MeteoInfo</span><span style='font-family:宋体'>脚本程序需要了解</span><span
+lang=EN-US>Python</span><span style='font-family:宋体'>语言的基本语法以及</span><span
+lang=EN-US>.Net</span><span style='font-family:宋体'>类库的基础知识，</span> <span
+style='font-family:宋体'>‘</span><span lang=EN-US>IronPython in Action</span><span
+style='font-family:宋体'>’是一本好的参考书。</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>import clr</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReferenceByPartialName(&quot;System.Windows.Forms&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>clr.AddReferenceByPartialName(&quot;System.Drawing&quot;)</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from System.Windows.Forms import *</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='color:blue'>from System.Drawing import *</span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

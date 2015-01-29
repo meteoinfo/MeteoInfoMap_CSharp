@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E1521B5-9297-4D00-ABCB-8F1819108C38}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeteoInfo</RootNamespace>
+    <AssemblyName>MeteoInfo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>gridfill.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MeteoInfo.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\MeteoInfo.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IronPython, Version=2.6.10920.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Modules, Version=2.6.10920.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\IronPython.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Debugging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.Debugging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.ExtensionAttribute, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.ExtensionAttribute.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Software\zedgraph_dll_v515\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\clsProjectFile.cs" />
+    <Compile Include="Classes\Globals.cs" />
+    <Compile Include="Classes\MyStreamWriter.cs" />
+    <Compile Include="Classes\Options.cs" />
+    <Compile Include="Classes\Plugin.cs" />
+    <Compile Include="Classes\PluginCollection.cs" />
+    <Compile Include="Classes\Statistics.cs" />
+    <Compile Include="Forms\frmFindAndReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFindAndReplace.designer.cs">
+      <DependentUpon>frmFindAndReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAddField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAddField.designer.cs">
+      <DependentUpon>frmAddField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAddXYLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAddXYLayer.designer.cs">
+      <DependentUpon>frmAddXYLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChart.designer.cs">
+      <DependentUpon>frmChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClipping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClipping.Designer.cs">
+      <DependentUpon>frmClipping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmComboBox.designer.cs">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDataGridView.designer.cs">
+      <DependentUpon>frmDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDataGridViewData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDataGridViewData.designer.cs">
+      <DependentUpon>frmDataGridViewData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDataInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDataInfo.designer.cs">
+      <DependentUpon>frmDataInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGridCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGridCalculation.Designer.cs">
+      <DependentUpon>frmGridCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGridSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGridSet.Designer.cs">
+      <DependentUpon>frmGridSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGridViewSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGridViewSet.Designer.cs">
+      <DependentUpon>frmGridViewSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIdentifer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIdentifer.Designer.cs">
+      <DependentUpon>frmIdentifer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIdentiferGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIdentiferGrid.Designer.cs">
+      <DependentUpon>frmIdentiferGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInputBox.designer.cs">
+      <DependentUpon>frmInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInterpolate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInterpolate.designer.cs">
+      <DependentUpon>frmInterpolate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmJoinData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmJoinData.Designer.cs">
+      <DependentUpon>frmJoinData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMeasurement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMeasurement.Designer.cs">
+      <DependentUpon>frmMeasurement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMeteoData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMeteoData.designer.cs">
+      <DependentUpon>frmMeteoData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMeteoInfoWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMeteoInfoWeb.designer.cs">
+      <DependentUpon>frmMeteoInfoWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMICAPS2GrADS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMICAPS2GrADS.Designer.cs">
+      <DependentUpon>frmMICAPS2GrADS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMICAPS4To.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMICAPS4To.Designer.cs">
+      <DependentUpon>frmMICAPS4To.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOMIAI2GrADS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOMIAI2GrADS.Designer.cs">
+      <DependentUpon>frmOMIAI2GrADS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOneDim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOneDim.designer.cs">
+      <DependentUpon>frmOneDim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenMap.designer.cs">
+      <DependentUpon>frmOpenMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOutputMapData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOutputMapData.designer.cs">
+      <DependentUpon>frmOutputMapData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPluginManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPluginManager.Designer.cs">
+      <DependentUpon>frmPluginManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProjection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProjection.designer.cs">
+      <DependentUpon>frmProjection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProjPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProjPoint.Designer.cs">
+      <DependentUpon>frmProjPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProperty.designer.cs">
+      <DependentUpon>frmProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmScript.Designer.cs">
+      <DependentUpon>frmScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSectionPlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSectionPlot.designer.cs">
+      <DependentUpon>frmSectionPlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSelectByAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSelectByAttributes.designer.cs">
+      <DependentUpon>frmSelectByAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSelectByLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSelectByLocation.Designer.cs">
+      <DependentUpon>frmSelectByLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUVSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUVSet.designer.cs">
+      <DependentUpon>frmUVSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmZoomToExtent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmZoomToExtent.Designer.cs">
+      <DependentUpon>frmZoomToExtent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTextEditor.designer.cs">
+      <DependentUpon>frmTextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.zh-CHS.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmComboBox.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataInfo.resx">
+      <DependentUpon>frmDataInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIdentifer.resx">
+      <DependentUpon>frmIdentifer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInterpolate.resx">
+      <DependentUpon>frmInterpolate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmJoinData.resx">
+      <DependentUpon>frmJoinData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.zh-CHS.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.zh-CN.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.zh-Hans.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.zh.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeteoData.resx">
+      <DependentUpon>frmMeteoData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeteoData.zh-CHS.resx">
+      <DependentUpon>frmMeteoData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeteoData.zh-CN.resx">
+      <DependentUpon>frmMeteoData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeteoData.zh-Hans.resx">
+      <DependentUpon>frmMeteoData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeteoInfoWeb.resx">
+      <DependentUpon>frmMeteoInfoWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMICAPS2GrADS.resx">
+      <DependentUpon>frmMICAPS2GrADS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOneDim.resx">
+      <DependentUpon>frmOneDim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOneDim.zh-CHS.resx">
+      <DependentUpon>frmOneDim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenMap.resx">
+      <DependentUpon>frmOpenMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenMap.zh-CHS.resx">
+      <DependentUpon>frmOpenMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOutputMapData.resx">
+      <DependentUpon>frmOutputMapData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOutputMapData.zh-CHS.resx">
+      <DependentUpon>frmOutputMapData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProjection.resx">
+      <DependentUpon>frmProjection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProperty.resx">
+      <DependentUpon>frmProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSectionPlot.resx">
+      <DependentUpon>frmSectionPlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSectionPlot.zh-CHS.resx">
+      <DependentUpon>frmSectionPlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUVSet.resx">
+      <DependentUpon>frmUVSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GlobalResource.resx" />
+    <EmbeddedResource Include="Resources\GlobalResource.zh-CHS.resx" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\GlobalResource.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gridfill.ico" />
+    <EmbeddedResource Include="Forms\frmPluginManager.zh-CHS.resx">
+      <DependentUpon>frmPluginManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\plugin_unsel.png" />
+    <EmbeddedResource Include="Resources\plugin_green.png" />
+    <EmbeddedResource Include="Forms\frmFindAndReplace.resx">
+      <DependentUpon>frmFindAndReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAddField.resx">
+      <DependentUpon>frmAddField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAddField.zh-CHS.resx">
+      <DependentUpon>frmAddField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAddXYLayer.resx">
+      <DependentUpon>frmAddXYLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAddXYLayer.zh-CHS.resx">
+      <DependentUpon>frmAddXYLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChart.resx">
+      <DependentUpon>frmChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChart.zh-CHS.resx">
+      <DependentUpon>frmChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClipping.resx">
+      <DependentUpon>frmClipping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClipping.zh-CHS.resx">
+      <DependentUpon>frmClipping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmComboBox.zh-CHS.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataGridView.resx">
+      <DependentUpon>frmDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataGridViewData.resx">
+      <DependentUpon>frmDataGridViewData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataGridViewData.zh-CHS.resx">
+      <DependentUpon>frmDataGridViewData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataInfo.zh-CHS.resx">
+      <DependentUpon>frmDataInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGridCalculation.resx">
+      <DependentUpon>frmGridCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGridSet.resx">
+      <DependentUpon>frmGridSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGridSet.zh-CHS.resx">
+      <DependentUpon>frmGridSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGridViewSet.resx">
+      <DependentUpon>frmGridViewSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGridViewSet.zh-CHS.resx">
+      <DependentUpon>frmGridViewSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIdentifer.zh-CHS.resx">
+      <DependentUpon>frmIdentifer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIdentiferGrid.resx">
+      <DependentUpon>frmIdentiferGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInputBox.resx">
+      <DependentUpon>frmInputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInputBox.zh-CHS.resx">
+      <DependentUpon>frmInputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInterpolate.zh-CHS.resx">
+      <DependentUpon>frmInterpolate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmJoinData.zh-CHS.resx">
+      <DependentUpon>frmJoinData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeasurement.resx">
+      <DependentUpon>frmMeasurement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMeasurement.zh-CHS.resx">
+      <DependentUpon>frmMeasurement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMICAPS2GrADS.zh-CHS.resx">
+      <DependentUpon>frmMICAPS2GrADS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMICAPS4To.resx">
+      <DependentUpon>frmMICAPS4To.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMICAPS4To.zh-CHS.resx">
+      <DependentUpon>frmMICAPS4To.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOMIAI2GrADS.resx">
+      <DependentUpon>frmOMIAI2GrADS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOMIAI2GrADS.zh-CHS.resx">
+      <DependentUpon>frmOMIAI2GrADS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPluginManager.resx">
+      <DependentUpon>frmPluginManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProjection.zh-CHS.resx">
+      <DependentUpon>frmProjection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProjPoint.resx">
+      <DependentUpon>frmProjPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmScript.resx">
+      <DependentUpon>frmScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSelectByAttributes.resx">
+      <DependentUpon>frmSelectByAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSelectByAttributes.zh-CHS.resx">
+      <DependentUpon>frmSelectByAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSelectByLocation.resx">
+      <DependentUpon>frmSelectByLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSelectByLocation.zh-CHS.resx">
+      <DependentUpon>frmSelectByLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTextEditor.zh-CHS.resx">
+      <DependentUpon>frmTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUVSet.zh-CHS.resx">
+      <DependentUpon>frmUVSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmZoomToExtent.resx">
+      <DependentUpon>frmZoomToExtent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmZoomToExtent.zh-CHS.resx">
+      <DependentUpon>frmZoomToExtent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTextEditor.resx">
+      <DependentUpon>frmTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\cursor.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MeteoInfoDLL\MeteoInfoDLL.csproj">
+      <Project>{BE06225D-DAE2-4C6A-8628-F60B14FE68C3}</Project>
+      <Name>MeteoInfoDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextEditor\ICSharpCode.TextEditor.csproj">
+      <Project>{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}</Project>
+      <Name>ICSharpCode.TextEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

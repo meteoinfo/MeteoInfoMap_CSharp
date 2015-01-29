@@ -1,0 +1,3 @@
+Name,StID,Longitute,Latitude,Altitude
+Jiuquan,S001,98.48,39.77,1139
+Beijing,S002,116.47,39.8,31.3

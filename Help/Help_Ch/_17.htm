@@ -1,0 +1,87 @@
+<html>
+
+<head>
+  <title> 图像地理定位文件 - MeteoInfo_Help_Chinese</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;图像地理定位文件</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>图像是以栅格数据形式保存的，每一个栅格对应一个行号和列号。为了将图像显示为地理坐标，需要建立转换信息将图像坐标转换为地理坐标。转换信息保存在一个独立的</span><span
+lang=EN-US>ASCII</span><span style='font-family:宋体'>文件中（地理定位文件），能够用任何文本编辑工具修改。转换信息也能在</span><span
+lang=EN-US>MeteoInfo</span><span style='font-family:宋体'>中生成和编辑。</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>地理定位文件的文件名和相应的图像文件名一样，后缀取图像文件后缀的第一和第三个字母再加上字母‘</span><span
+lang=EN-US>w</span><span style='font-family:宋体'>’组成。比如，图像文件为‘</span><span
+lang=EN-US>mytown.tif</span><span style='font-family:宋体'>’，那么地理定位文件的文件名为‘</span><span
+lang=EN-US>mytown.tfw</span><span style='font-family:宋体'>’。‘</span><span
+lang=EN-US>redlands.gif</span><span style='font-family:宋体'>’的地理定位文件是‘</span><span
+lang=EN-US>redlands.gfw</span><span style='font-family:宋体'>’。</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>地理定位文件的内容如下：</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+20.17541308822119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -A</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.00000000000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -D</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.00000000000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -B</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-20.17541308822119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -E</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+424178.11472601280548&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -C</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4313415.90726399607956&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -F</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>A = x</span><span style='font-family:宋体'>方向比例，一个象素在地理坐标中</span><span
+lang=EN-US>x</span><span style='font-family:宋体'>方向的大小。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>B, D = </span><span style='font-family:
+宋体'>旋转项。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>C, F =</span><span style='font-family:宋体'>平移项，左上角象素的地理</span><span
+lang=EN-US>x</span><span style='font-family:宋体'>、</span><span lang=EN-US>y</span><span
+style='font-family:宋体'>坐标。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>E = y</span><span style='font-family:宋体'>方向比例的相反数（负数），一个象素在地理坐标中</span><span
+lang=EN-US>y</span><span style='font-family:宋体'>方向的大小。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>注意：旋转项目前在</span><span
+lang=EN-US>MeteoInfo</span><span style='font-family:宋体'>中未做处理。</span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

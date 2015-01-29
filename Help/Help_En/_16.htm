@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <title> World File - MeteoInfo_Help</title>
+  <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+  <meta name="GENERATOR" content="Macrobject Word-2-CHM">
+  <link rel="stylesheet" href="Word2Chm.css" type="text/css">
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="moHeader">&nbsp;World File</td>
+    </tr>
+  </table>
+  
+  <p></p>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Images are
+stored as raster data, where each cell in the image has a row and column
+number. In order to display images in real-world coordinates, it is necessary
+to establish an image-to-world transformation that converts the image
+coordinates to real-world coordinates. This transformation information is
+typically stored with the image.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>This information
+was stored in a separate ASCII file. This file is generally referred to as the
+world file, since it contains the real-world transformation information used by
+the image. World files can be created with any editor. They can also be created
+using MeteoInfo.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>It’s easy to
+identify the world file which should accompany an image file. The first and
+third characters of the image file’s suffix and a final &quot;w&quot; are used
+for the world file suffix. Therefore, for ‘mytown.tif’, the world file would be
+‘mytown.tfw’. For ‘redlands.gif’, its world file would be ‘redlands.gfw’.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>The contents of
+the world file will look something like this:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+20.17541308822119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -A</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.00000000000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -D</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.00000000000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -B</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-20.17541308822119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -E</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+424178.11472601280548&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -C</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4313415.90726399607956&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -F</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>When this file is present, MeteoInfo
+performs the image-to-world transformation.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>A = x-scale; dimension of a pixel in map
+units in x direction</span></p>
+
+<p class=MsoNormal><span lang=EN-US>B, D = rotation terms</span></p>
+
+<p class=MsoNormal><span lang=EN-US>C, F = translation terms; x,y map
+coordinates of the center of the upper-left pixel</span></p>
+
+<p class=MsoNormal><span lang=EN-US>E = negative of y-scale; dimension of a
+pixel in map units in y direction</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Note: The
+y-scale (E) is negative because the origins of an image and a geographic
+coordinate system are different. The origin of an image is located in the
+upper-left corner, whereas the origin of the map coordinate system is located
+in the lower-left corner. Row values in the image increase from the origin
+downward, while y-coordinate values in the map increase from the origin upward.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>Note: No
+rotation terms were considered in MeteoInfo at present.</span></p>
+
+
+</div>
+  <p></p>
+  <hr class="moHR" />
+  <span class="moCopyright">
+    Copyright 2009-2011 Yaqiang Wang. All rights reserved.
+  </span>
+
+</body>
+
+</html>

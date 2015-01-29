@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Plugins>
+  <Plugin Name="Sample plugin" Author="Yaqiang Wang" Version="0.1" Description="MeteoInfo plugin sample" DllPath="Sample\PluginSample.dll" ClassName="PluginSample.Sample" IsLoad="False" />
+  <Plugin Name="TrajStat plugin" Author="Yaqiang Wang" Version="1.3.0.0" Description="Trajectory Statistics Analysis plugin for MeteoInfo" DllPath="TrajStat\TrajStat.dll" ClassName="TrajStat.Main" IsLoad="True" />
+</Plugins>

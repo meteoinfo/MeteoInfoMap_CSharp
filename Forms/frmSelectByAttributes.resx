@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Lab_Values.Text" xml:space="preserve">
+    <value>Unique Values:</value>
+  </data>
+  <data name="&gt;&gt;Lab_Values.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Lab_Values.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;B_LE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_GT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="B_EQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_And.Text" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="B_GT.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="B_GT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 158</value>
+  </data>
+  <data name="B_Select.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;B_EQ.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="B_GE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 158</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Lab_Method.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B_GetValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 254</value>
+  </data>
+  <data name="Lab_Fields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="&gt;&gt;Lab_Fields.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B_Select.Name" xml:space="preserve">
+    <value>B_Select</value>
+  </data>
+  <data name="TB_SQL.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B_GetValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 34</value>
+  </data>
+  <data name="LB_Values.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 169</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TB_SQL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lab_Fields.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B_Or.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="B_LE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 196</value>
+  </data>
+  <data name="Lab_Values.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Lab_Method.Name" xml:space="preserve">
+    <value>Lab_Method</value>
+  </data>
+  <data name="Lab_Method.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="B_LT.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="CB_MapLayers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;B_GE.Name" xml:space="preserve">
+    <value>B_GE</value>
+  </data>
+  <data name="B_And.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_GetValues.Name" xml:space="preserve">
+    <value>B_GetValues</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 302</value>
+  </data>
+  <data name="Lab_Fields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 99</value>
+  </data>
+  <data name="&gt;&gt;Lab_Values.Name" xml:space="preserve">
+    <value>Lab_Values</value>
+  </data>
+  <data name="B_Select.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;CB_MapLayers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B_GE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_LT.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;B_EQ.Name" xml:space="preserve">
+    <value>B_EQ</value>
+  </data>
+  <data name="B_GE.Text" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSelectByAttributes</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 15</value>
+  </data>
+  <data name="&gt;&gt;CB_MapLayers.Name" xml:space="preserve">
+    <value>CB_MapLayers</value>
+  </data>
+  <data name="&gt;&gt;TB_SQL.Name" xml:space="preserve">
+    <value>TB_SQL</value>
+  </data>
+  <data name="Lab_ShpLayer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Select query string:</value>
+  </data>
+  <data name="B_Or.Text" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="&gt;&gt;B_Not.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Select By Attributes</value>
+  </data>
+  <data name="&gt;&gt;B_Clear.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="B_LT.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="B_NE.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="B_Not.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="TB_SQL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 322</value>
+  </data>
+  <data name="B_Clear.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="CB_Method.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="B_EQ.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Lab_Fields.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="CB_MapLayers.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="LB_Fields.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="B_Select.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 436</value>
+  </data>
+  <data name="B_GE.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Lab_Method.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 60</value>
+  </data>
+  <data name="&gt;&gt;B_GT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CB_Method.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B_NE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 119</value>
+  </data>
+  <data name="B_GT.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="LB_Values.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B_LE.Text" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="B_LE.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;Lab_ShpLayer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_Fields.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CB_Method.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_Values.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_And.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_GetValues.Text" xml:space="preserve">
+    <value>Get Values</value>
+  </data>
+  <data name="&gt;&gt;Lab_ShpLayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lab_Method.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;Lab_Fields.Name" xml:space="preserve">
+    <value>Lab_Fields</value>
+  </data>
+  <data name="&gt;&gt;B_EQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TB_SQL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="TB_SQL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;TB_SQL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lab_Method.Text" xml:space="preserve">
+    <value>Method:</value>
+  </data>
+  <data name="&gt;&gt;B_LE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_Not.Text" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="&gt;&gt;B_And.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B_GetValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CB_MapLayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="Lab_ShpLayer.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="B_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;B_NE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Lab_Method.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="LB_Fields.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Lab_Values.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_LE.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;B_EQ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_NE.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;B_Not.Name" xml:space="preserve">
+    <value>B_Not</value>
+  </data>
+  <data name="LB_Fields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 119</value>
+  </data>
+  <data name="&gt;&gt;CB_MapLayers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_GE.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="B_Or.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="B_GetValues.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B_Or.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="B_And.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_GT.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;CB_MapLayers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;CB_Method.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_Select.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 34</value>
+  </data>
+  <data name="B_LT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="Lab_ShpLayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="&gt;&gt;B_NE.Name" xml:space="preserve">
+    <value>B_NE</value>
+  </data>
+  <data name="Lab_ShpLayer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_Values.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;B_Or.Name" xml:space="preserve">
+    <value>B_Or</value>
+  </data>
+  <data name="B_NE.Text" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="B_Select.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="&gt;&gt;B_GE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B_Or.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="&gt;&gt;LB_Values.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TB_SQL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 92</value>
+  </data>
+  <data name="&gt;&gt;B_LT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_And.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;B_Clear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_Fields.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;B_GE.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;B_NE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_GT.Name" xml:space="preserve">
+    <value>B_GT</value>
+  </data>
+  <data name="&gt;&gt;B_Clear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Lab_Values.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 99</value>
+  </data>
+  <data name="&gt;&gt;LB_Fields.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;CB_Method.Name" xml:space="preserve">
+    <value>CB_Method</value>
+  </data>
+  <data name="B_Clear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;B_GT.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="B_Not.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 196</value>
+  </data>
+  <data name="&gt;&gt;B_LE.Name" xml:space="preserve">
+    <value>B_LE</value>
+  </data>
+  <data name="&gt;&gt;B_Select.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CB_Method.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;B_Select.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B_Not.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_Values.Name" xml:space="preserve">
+    <value>LB_Values</value>
+  </data>
+  <data name="LB_Fields.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Lab_ShpLayer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B_Clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 34</value>
+  </data>
+  <data name="&gt;&gt;B_NE.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;B_Clear.Name" xml:space="preserve">
+    <value>B_Clear</value>
+  </data>
+  <data name="B_NE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 436</value>
+  </data>
+  <data name="B_And.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;Lab_ShpLayer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;B_GetValues.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lab_ShpLayer.Name" xml:space="preserve">
+    <value>Lab_ShpLayer</value>
+  </data>
+  <data name="&gt;&gt;Lab_Method.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="CB_Method.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 23</value>
+  </data>
+  <data name="CB_MapLayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 23</value>
+  </data>
+  <data name="Lab_Values.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 15</value>
+  </data>
+  <data name="LB_Values.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="B_Not.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="TB_SQL.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>451, 486</value>
+  </data>
+  <data name="Lab_ShpLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="&gt;&gt;Lab_Values.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;B_LT.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;B_Or.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B_Or.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 158</value>
+  </data>
+  <data name="&gt;&gt;B_LT.Name" xml:space="preserve">
+    <value>B_LT</value>
+  </data>
+  <data name="&gt;&gt;B_LT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lab_Fields.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B_Not.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Lab_Fields.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LB_Fields.Name" xml:space="preserve">
+    <value>LB_Fields</value>
+  </data>
+  <data name="&gt;&gt;Lab_Method.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_Fields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 169</value>
+  </data>
+  <data name="&gt;&gt;B_Select.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;B_GetValues.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LB_Values.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B_Or.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_LE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_GetValues.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="B_LT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 196</value>
+  </data>
+  <data name="&gt;&gt;B_GE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_And.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 119</value>
+  </data>
+  <data name="&gt;&gt;LB_Values.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B_EQ.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="B_Not.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_GT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="B_LE.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LB_Values.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 119</value>
+  </data>
+  <data name="Lab_Fields.Text" xml:space="preserve">
+    <value>Fields:</value>
+  </data>
+  <data name="Lab_ShpLayer.Text" xml:space="preserve">
+    <value>Layer:</value>
+  </data>
+  <data name="&gt;&gt;B_And.Name" xml:space="preserve">
+    <value>B_And</value>
+  </data>
+  <data name="&gt;&gt;LB_Fields.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="B_EQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="B_EQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 119</value>
+  </data>
+  <data name="&gt;&gt;Lab_Method.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Lab_Method.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CB_Method.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 56</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

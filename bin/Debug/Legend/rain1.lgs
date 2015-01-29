@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?>
+<LegendScheme FieldName="" LegendType="GraduatedColor" ShapeType="Polygon" BreakNum="10" HasNoData="False" MinValue="0" MaxValue="25" UNDEF="9999">
+  <Breaks>
+    <Break Caption="&lt; 0.1" StartValue="0" EndValue="0.1" Color="#A000C8" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="False" OutlineSize="1" />
+    <Break Caption="0.1 - 1" StartValue="0.1" EndValue="1" Color="#AAF0FF" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="1 - 2" StartValue="1" EndValue="2" Color="#78E6F0" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="2 - 5" StartValue="2" EndValue="5" Color="#C8DC32" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="5 - 10" StartValue="5" EndValue="10" Color="#F0DC14" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="10 - 20" StartValue="10" EndValue="20" Color="#FF780A" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="20 - 25" StartValue="20" EndValue="25" Color="#FF5A0A" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="25 - 50" StartValue="25" EndValue="50" Color="#F02800" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="50 - 100" StartValue="50" EndValue="100" Color="#B40A00" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+    <Break Caption="&gt; 100" StartValue="100" EndValue="1000" Color="#780A00" DrawShape="True" OutlineColor="Gray" DrawOutline="False" DrawFill="True" OutlineSize="1" />
+  </Breaks>
+</LegendScheme>
