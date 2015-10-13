@@ -350,12 +350,5 @@ D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.frmMain.zh-CN.r
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.frmMain.zh-Hans.resources
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.frmMain.zh.resources
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\zh\MeteoInfo.resources.dll
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResolveAssemblyReference.cache
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.read.5.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.read.7.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.read.1.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.read.4.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.write.5.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.write.7.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.write.1.tlog
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\ResGen.write.4.tlog
+D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.csprojResolveAssemblyReference.cache
+D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.csproj.GenerateResource.Cache

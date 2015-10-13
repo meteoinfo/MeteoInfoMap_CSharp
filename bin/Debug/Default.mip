@@ -31,7 +31,7 @@
   <Layout BackColor="White" ForeColor="Black" SmoothingMode="Default" PaperSizeName="Custom" PaperSizeWidth="500" PaperSizeHeight="750" Landscape="True">
     <LayoutElements>
       <LayoutMap ElementType="LayoutMap" Left="41" Top="48" Width="610" Height="408" DrawNeatLine="True" NeatLineColor="Black" NeatLineSize="1" GridLineColor="Silver" GridLineSize="1" GridLineStyle="Dash" DrawGridLine="False" DrawGridLabel="True" GridFontName="Arial" GridFontSize="8" GridXDelt="10" GridYDelt="10" GridXOrigin="0" GridYOrigin="0" GridLabelPosition="LeftBottom" />
-      <LayoutGraphic ElementType="LayoutGraphic" IsTitle="False" Left="207" Top="14" Width="291" Height="18">
+      <LayoutGraphic ElementType="LayoutGraphic" IsTitle="False" Left="171" Top="11" Width="364" Height="23">
         <Graphic>
           <Shape ShapeType="Point" Visible="True" Selected="False">
             <Points>

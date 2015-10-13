@@ -359,6 +359,14 @@
             <param name="aLineList">Polyline list</param>
             <returns>Polyline list after smoothing</returns>
         </member>
+        <member name="M:wContour.Contour.SmoothLines(System.Collections.Generic.List{wContour.PolyLine},System.Single)">
+            <summary>
+            Smooth Polylines
+            </summary>
+            <param name="aLineList">Polyline list</param>
+            <param name="step">B-Spline scan step (0 - 1)</param>
+            <returns>Polyline list after smoothing</returns>
+        </member>
         <member name="M:wContour.Contour.SmoothPoints(System.Collections.Generic.List{wContour.PointD})">
             <summary>
             Smooth points
@@ -449,6 +457,15 @@
             <param name="UNDEF">undefine data</param>
             <param name="density">stream line density</param>
             <returns>streamlines</returns>
+        </member>
+        <member name="M:wContour.Contour.BSplineScanning(System.Collections.Generic.List{wContour.PointD},System.Boolean,System.Single)">
+            <summary>
+            B-Spline interpolation
+            </summary>
+            <param name="pointList">Point list</param>
+            <param name="isClose">Is closed or not</param>
+            <param name="step">Scan step (0 - 1)</param>
+            <returns>Interpolated points</returns>
         </member>
         <member name="M:wContour.Contour.IsClockwise(System.Collections.Generic.List{wContour.PointD})">
             <summary>

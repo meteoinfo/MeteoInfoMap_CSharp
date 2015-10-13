@@ -117,7 +117,7 @@ namespace MeteoInfo.Forms
                 DateTime aTime = sTime;
                 string inFile;
                 int fNum = 0;
-                MICAPSData CMICAPSData = new MICAPSData();
+                //MICAPSData CMICAPSData = new MICAPSData();
                 MICAPS1DataInfo aMDataInfo = new MICAPS1DataInfo();
                 GrADSDataInfo CGrADSData = new GrADSDataInfo();
                 int timeNum = 0;
@@ -127,7 +127,8 @@ namespace MeteoInfo.Forms
                     if (File.Exists(inFile))
                     {
                         fNum += 1;
-                        aMDataInfo = CMICAPSData.ReadMicaps1(inFile);
+                        //aMDataInfo = CMICAPSData.ReadMicaps1(inFile);
+                        aMDataInfo.ReadDataInfo(inFile);
                         CGrADSData.WriteGrADSStationData(bw, aMDataInfo, varIdxList);
                     }
                     else

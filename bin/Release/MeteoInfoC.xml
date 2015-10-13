@@ -667,6 +667,11 @@
             Get resize ability
             </summary>
         </member>
+        <member name="P:MeteoInfoC.Shape.Graphic.Tag">
+            <summary>
+            Get or set tag
+            </summary>
+        </member>
         <member name="T:MeteoInfoC.Data.MeteoData.MICAPSData">
             <summary>
             MICAPS data methods
@@ -7249,6 +7254,11 @@
             Get or set resize ability
             </summary>
         </member>
+        <member name="P:MeteoInfoC.Layout.LayoutElement.Name">
+            <summary>
+            Get or set name
+            </summary>
+        </member>
         <member name="M:MeteoInfoC.Layout.LayoutMap.#ctor(MeteoInfoC.Legend.MapFrame)">
             <summary>
             Constructor
@@ -10649,6 +10659,24 @@
             <param name="clipObj">clipping object</param>
             <returns>clipped polylines</returns>
         </member>
+        <member name="M:MeteoInfoC.Geoprocess.GeoComputation.CrossProduct(MeteoInfoC.PointD,MeteoInfoC.PointD,MeteoInfoC.PointD)">
+            <summary>
+            Cross product
+            </summary>
+            <param name="p1">Point 1</param>
+            <param name="p2">Point 2</param>
+            <param name="p3">Point 3</param>
+            <returns>Cross produt result</returns>
+        </member>
+        <member name="M:MeteoInfoC.Geoprocess.GeoComputation.PointProduct(MeteoInfoC.PointD,MeteoInfoC.PointD,MeteoInfoC.PointD)">
+            <summary>
+            Point product
+            </summary>
+            <param name="p1">Point 1</param>
+            <param name="p2">Point 2</param>
+            <param name="p3">Point 3</param>
+            <returns>Point produt result</returns>
+        </member>
         <member name="M:MeteoInfoC.Geoprocess.GeoComputation.GetDistance(System.Double,System.Double,System.Double,System.Double)">
             <summary>
             Get distance between two points on the earth
@@ -12623,6 +12651,13 @@
             <returns></returns>
         </member>
         <member name="M:MeteoInfoC.Map.MapView.GetLayerFromName(System.String)">
+            <summary>
+            Get layer from name
+            </summary>
+            <param name="name">layer name</param>
+            <returns>map layer</returns>
+        </member>
+        <member name="M:MeteoInfoC.Map.MapView.GetLayer(System.String)">
             <summary>
             Get layer from name
             </summary>
@@ -25725,6 +25760,11 @@
         <member name="P:MeteoInfoC.Map.MaskOut.MaskLayer">
             <summary>
             Get or set mask layer name
+            </summary>
+        </member>
+        <member name="P:MeteoInfoC.Map.MaskOut.Shapes">
+            <summary>
+            Get or set mask shapes
             </summary>
         </member>
         <member name="T:MeteoInfoC.Map.MapProperty">
