@@ -117,112 +117,112 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CHB_InterpolateGrid.Text" xml:space="preserve">
-    <value>Interpolate Grid</value>
-  </data>
-  <data name="&gt;&gt;B_OK.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CHB_InterpolateGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;B_OK.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="B_OK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 67</value>
-  </data>
-  <data name="B_OK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 22</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Grid View Setting</value>
-  </data>
-  <data name="&gt;&gt;B_OK.Name" xml:space="preserve">
-    <value>B_OK</value>
-  </data>
-  <data name="&gt;&gt;CHB_InterpolateGrid.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;B_Cancel.Name" xml:space="preserve">
-    <value>B_Cancel</value>
-  </data>
-  <data name="&gt;&gt;CHB_InterpolateGrid.Name" xml:space="preserve">
-    <value>CHB_InterpolateGrid</value>
+  <data name="B_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 84</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="B_OK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="B_Cancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="B_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="B_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="B_Cancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="B_OK.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="CHB_InterpolateGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 24</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>226, 99</value>
-  </data>
-  <data name="&gt;&gt;CHB_InterpolateGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;B_Cancel.Name" xml:space="preserve">
+    <value>B_Cancel</value>
   </data>
   <data name="&gt;&gt;B_Cancel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="CHB_InterpolateGrid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;B_OK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="B_Cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="B_Cancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;B_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;B_Cancel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="B_Cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 67</value>
+  <data name="B_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 84</value>
   </data>
-  <data name="&gt;&gt;B_Cancel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="B_OK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="B_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 28</value>
   </data>
   <data name="B_OK.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="B_Cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 22</value>
+  <data name="B_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;B_OK.Name" xml:space="preserve">
+    <value>B_OK</value>
+  </data>
+  <data name="&gt;&gt;B_OK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B_OK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CHB_InterpolateGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CHB_InterpolateGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 30</value>
   </data>
   <data name="CHB_InterpolateGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="CHB_InterpolateGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>157, 19</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmGridViewSet</value>
+  <data name="CHB_InterpolateGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="CHB_InterpolateGrid.Text" xml:space="preserve">
+    <value>Interpolate Grid</value>
+  </data>
+  <data name="&gt;&gt;CHB_InterpolateGrid.Name" xml:space="preserve">
+    <value>CHB_InterpolateGrid</value>
+  </data>
+  <data name="&gt;&gt;CHB_InterpolateGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CHB_InterpolateGrid.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;CHB_InterpolateGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>301, 124</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Grid View Setting</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmGridViewSet</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

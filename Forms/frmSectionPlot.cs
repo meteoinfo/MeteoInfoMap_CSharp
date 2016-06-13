@@ -103,6 +103,8 @@ namespace MeteoInfo.Forms
             _mapLayout.AddElement(new LayoutMap(_mapLayout.MapFrames[0]));
             LayoutLegend legend = _mapLayout.AddLegend(660, 100);
             legend.LegendStyle = LegendStyles.Bar_Vertical;
+            legend.Width = 36;
+            legend.Height = 295;
             _mapLayout.AddText("MeteoInfo: Meteorological Data Infomation System", 320, 20);
             _mapLayout.PaintGraphics();
             //_mapLayout.MainTitle.Text = "MeteoInfo: Meteorological Data Infomation System";  

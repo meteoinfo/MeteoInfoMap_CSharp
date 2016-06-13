@@ -5049,7 +5049,7 @@ namespace MeteoInfo
             this.CB_Time.Items.Clear();
             if (var.TDimension != null)
             {
-                List<DateTime> times = var.getTimes();
+                List<DateTime> times = var.GetTimes();
                 for (i = 0; i < times.Count; i++)
                     this.CB_Time.Items.Add(times[i].ToString("yyyy-MM-dd HH:mm"));
                 if (this.CB_Time.Items.Count > _meteoDataInfo.TimeIndex)
