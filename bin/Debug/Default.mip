@@ -8,7 +8,7 @@
       <MaskOut SetMaskLayer="False" MaskLayer="" />
       <Projection IsLonLatMap="True" ProjStr=" +proj=lonlat +ellps=WGS84 +datum=WGS84 +no_defs= +k=1" RefLon="0" RefCutLon="180" />
       <GroupLayer>
-        <Layer Handle="2" LayerName="country1.shp" FileName="..\..\..\..\..\..\Temp\Map\country1.shp" Visible="True" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polygon" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
+        <Layer Handle="1" LayerName="country1.shp" FileName="..\..\..\..\..\..\Temp\Map\country1.shp" Visible="True" IsMaskout="False" LayerType="VectorLayer" LayerDrawType="Map" ShapeType="Polygon" AvoidCollision="True" TransparencyPerc="0" Expanded="False">
           <LegendScheme FieldName="" LegendType="SingleSymbol" ShapeType="Polygon" BreakNum="1" HasNoData="False" MinValue="0" MaxValue="0" UNDEF="-9999">
             <Breaks>
               <Break Caption="" StartValue="0" EndValue="0" Color="#FFFBC3" DrawShape="True" OutlineColor="Gray" DrawOutline="True" DrawFill="False" OutlineSize="1" UsingHatchStyle="False" Style="Horizontal" BackColor="Transparent" />
@@ -41,7 +41,7 @@
           <Legend Color="Black" LegendType="LabelBreak" Text="MeteoInfo - Meteorological data information" Angle="0" FontName="Arial" FontSize="10.8" FontBold="False" YShift="0" />
         </Graphic>
       </LayoutGraphic>
-      <LayoutLegend ElementType="LayoutLegend" LayoutMapIndex="0" LegendLayer="GridFill_PS_Surface_1987-01-02 00:00" LegendStyle="Bar_Vertical" LayerUpdateType="FirstMeteoLayer" BackColor="Transparent" DrawNeatLine="False" NeatLineColor="Black" NeatLineSize="1" Left="653" Top="50" Width="47" Height="403" FontName="Arial" FontSize="7" ColumnNumber="1" />
+      <LayoutLegend ElementType="LayoutLegend" LayoutMapIndex="0" LegendLayer="country1.shp" LegendStyle="Bar_Vertical" LayerUpdateType="FirstMeteoLayer" BackColor="Transparent" DrawNeatLine="False" NeatLineColor="Black" NeatLineSize="1" Left="653" Top="50" Width="47" Height="403" FontName="Arial" FontSize="7" ColumnNumber="1" />
     </LayoutElements>
   </Layout>
 </MeteoInfo>

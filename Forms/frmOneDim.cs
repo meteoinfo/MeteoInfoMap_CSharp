@@ -571,7 +571,8 @@ namespace MeteoInfo.Forms
             {
                 CB_Time1.Items.Add(aDataInfo.times[i].ToString(timeFormat));
             }
-            CB_Time1.SelectedIndex = 0;
+            if (CB_Time1.Items.Count > 0)
+                CB_Time1.SelectedIndex = 0;
 
             ////Set levels
             //CB_Level1.Items.Clear();            

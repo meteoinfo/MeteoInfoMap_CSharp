@@ -26207,7 +26207,7 @@
         </member>
         <member name="T:MeteoInfoC.Projections.GeocentricGeodetic">
             <summary>
-            Wenzel, H.-G.(1985): Hochaufl鰏ende Kugelfunktionsmodelle f黵
+            Wenzel, H.-G.(1985): Hochauflösende Kugelfunktionsmodelle für
             das Gravitationspotential der Erde. Wiss. Arb. Univ. Hannover
             Nr. 137, p. 130-131.
             </summary>
@@ -27364,7 +27364,7 @@
         </member>
         <member name="F:MeteoInfoC.Projections.ProjectedCategories.SpheroidBased.Lambert2Wide">
             <summary>
-            Lambert 2 (蓆endu)
+            Lambert 2 (Étendu)
             </summary>
         </member>
         <member name="M:MeteoInfoC.Projections.ProjectedCategories.SpheroidBased.#ctor">
