@@ -1,15 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Threading;
-using MeteoInfo.Classes;
-using System.Collections;
 using System.IO;
 using MeteoInfo.Forms;
 using MeteoInfoC.Legend;
@@ -98,6 +92,7 @@ namespace MeteoInfo
             toolStrip2.Items[0].Enabled = true;
             this.splitContainer1.Panel2.Enabled = false;
             CHB_ColorVar.Visible = false;
+            CHB_Smooth.Visible = false;
         }
 
         #endregion
@@ -1170,12 +1165,13 @@ namespace MeteoInfo
             }
 
             //Create layer
+            bool smooth = CHB_Smooth.Checked;
             switch (_2DDrawType)
             {
                 case DrawType2D.Contour:
                     LName = "Contour_" + LName;
                     LegendManage.SetContoursAndColors(aLS, ref _cValues, ref _cColors);
-                    aLayer = DrawMeteoData.CreateContourLayer(_gridData, aLS, LName, fieldName);
+                    aLayer = DrawMeteoData.CreateContourLayer(_gridData, aLS, LName, fieldName, smooth);
                     if (aLayer != null)
                     {
                         ((VectorLayer)aLayer).LabelSet.ShadowColor = frmMain.CurrentWin.MapDocument.ActiveMapFrame.MapView.BackColor;
@@ -1185,7 +1181,7 @@ namespace MeteoInfo
                 case DrawType2D.Shaded:
                     LName = "Shaded_" + LName;
                     LegendManage.SetContoursAndColors(aLS, ref _cValues, ref _cColors);
-                    aLayer = DrawMeteoData.CreateShadedLayer(_gridData, aLS, LName, fieldName);
+                    aLayer = DrawMeteoData.CreateShadedLayer(_gridData, aLS, LName, fieldName, smooth);
                     break;
                 case DrawType2D.Grid_Fill:
                     LName = "GridFill_" + LName;
@@ -5192,12 +5188,19 @@ namespace MeteoInfo
             //Set CHB_ColorVar visible
             switch (_2DDrawType)
             {
+                case DrawType2D.Contour:
+                case DrawType2D.Shaded:
+                    CHB_Smooth.Visible = true;
+                    CHB_ColorVar.Visible = false;
+                    break;
                 case DrawType2D.Vector:
                 case DrawType2D.Barb:
                     CHB_ColorVar.Visible = true;
+                    CHB_Smooth.Visible = false;
                     break;
                 default:
                     CHB_ColorVar.Visible = false;
+                    CHB_Smooth.Visible = false;
                     break;
             }
         }

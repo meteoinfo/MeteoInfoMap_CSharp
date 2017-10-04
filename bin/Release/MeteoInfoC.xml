@@ -7518,6 +7518,17 @@
             <param name="fieldName">field name</param>
             <returns>VectorLayer</returns>
         </member>
+        <member name="M:MeteoInfoC.Data.MeteoData.DrawMeteoData.CreateContourLayer(MeteoInfoC.Data.GridData,MeteoInfoC.Legend.LegendScheme,System.String,System.String,System.Boolean)">
+            <summary>
+            Create contour layer
+            </summary>
+            <param name="gridData">grid data</param>        
+            <param name="aLS">legend scheme</param>
+            <param name="LName">layer name</param>
+            <param name="fieldName">field name</param>
+            <param name="smooth">Smooth or not</param>
+            <returns>VectorLayer</returns>
+        </member>
         <member name="M:MeteoInfoC.Data.MeteoData.DrawMeteoData.CreateShadedLayer(System.Double[0:,0:],System.Double[],System.Double[],System.Double[],System.Drawing.Color[],System.Double,System.Double,System.Boolean,System.Double,MeteoInfoC.Legend.LegendScheme,System.String)">
             <summary>
             Create shaded layer
@@ -7543,6 +7554,17 @@
             <param name="aLS">legend scheme</param>
             <param name="LName">layer name</param>
             <param name="fieldName">field name</param>
+            <returns>vector layer</returns>
+        </member>
+        <member name="M:MeteoInfoC.Data.MeteoData.DrawMeteoData.CreateShadedLayer(MeteoInfoC.Data.GridData,MeteoInfoC.Legend.LegendScheme,System.String,System.String,System.Boolean)">
+            <summary>
+            Create shaded layer
+            </summary>
+            <param name="gridData">grid data</param>        
+            <param name="aLS">legend scheme</param>
+            <param name="LName">layer name</param>
+            <param name="fieldName">field name</param>
+            <param name="smooth">Smooth or not</param>
             <returns>vector layer</returns>
         </member>
         <member name="M:MeteoInfoC.Data.MeteoData.DrawMeteoData.CreateGridVectorLayer(MeteoInfoC.Data.GridData,MeteoInfoC.Data.GridData,MeteoInfoC.Data.GridData,MeteoInfoC.Legend.LegendScheme,System.Boolean,System.String,System.Boolean)">
@@ -26207,7 +26229,7 @@
         </member>
         <member name="T:MeteoInfoC.Projections.GeocentricGeodetic">
             <summary>
-            Wenzel, H.-G.(1985): Hochauflösende Kugelfunktionsmodelle für
+            Wenzel, H.-G.(1985): Hochaufl鰏ende Kugelfunktionsmodelle f黵
             das Gravitationspotential der Erde. Wiss. Arb. Univ. Hannover
             Nr. 137, p. 130-131.
             </summary>
@@ -27364,7 +27386,7 @@
         </member>
         <member name="F:MeteoInfoC.Projections.ProjectedCategories.SpheroidBased.Lambert2Wide">
             <summary>
-            Lambert 2 (Étendu)
+            Lambert 2 (蓆endu)
             </summary>
         </member>
         <member name="M:MeteoInfoC.Projections.ProjectedCategories.SpheroidBased.#ctor">

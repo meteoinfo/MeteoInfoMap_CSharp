@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="gb2312"?>
 <Options>
-  <Startup ShowMeteoDataDlg="False" MainFormLocation="146,94" MainFormSize="1000,650" />
+  <Startup ShowMeteoDataDlg="True" MainFormLocation="151,22" MainFormSize="1000,650" />
 </Options>

@@ -261,7 +261,6 @@ D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\IKVM.OpenJDK.Core.dll
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\MeteoInfoC.pdb
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\MeteoInfoC.xml
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\wContour.pdb
-D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\wContour.xml
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\zh-CHS\MeteoInfoC.resources.dll
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.csprojResolveAssemblyReference.cache
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.frmAbout.resources
@@ -350,3 +349,4 @@ D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\zh-Hans\MeteoInfo.resourc
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\zh\MeteoInfo.resources.dll
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.exe
 D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\obj\Release\MeteoInfo.pdb
+D:\MyProgram\CSharp\MeteoInfoDev\MeteoInfo\bin\Release\wContour.xml

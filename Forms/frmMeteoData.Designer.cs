@@ -85,6 +85,7 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.TSB_SectionPlot = new System.Windows.Forms.ToolStripButton();
             this.TSB_1DPlot = new System.Windows.Forms.ToolStripButton();
+            this.CHB_Smooth = new System.Windows.Forms.CheckBox();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -99,13 +100,12 @@
             // 
             // splitContainer1.Panel1
             // 
-            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.B_RemoveAllData);
             this.splitContainer1.Panel1.Controls.Add(this.LB_DataFiles);
             // 
             // splitContainer1.Panel2
             // 
-            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
+            this.splitContainer1.Panel2.Controls.Add(this.CHB_Smooth);
             this.splitContainer1.Panel2.Controls.Add(this.Lab_Variable);
             this.splitContainer1.Panel2.Controls.Add(this.CHB_ColorVar);
             this.splitContainer1.Panel2.Controls.Add(this.Lab_DrawType);
@@ -223,7 +223,7 @@
             // 
             // toolStrip2
             // 
-            resources.ApplyResources(this.toolStrip2, "toolStrip2");
+            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TSB_Open,
             this.TSB_DataInfo,
@@ -242,11 +242,11 @@
             this.toolStripSeparator4,
             this.TSB_SectionPlot,
             this.TSB_1DPlot});
+            resources.ApplyResources(this.toolStrip2, "toolStrip2");
             this.toolStrip2.Name = "toolStrip2";
             // 
             // TSB_Open
             // 
-            resources.ApplyResources(this.TSB_Open, "TSB_Open");
             this.TSB_Open.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.TSB_Open.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TSMI_GrADSData,
@@ -260,74 +260,74 @@
             this.TSMI_AWXData,
             this.TSMI_GeoTiffData,
             this.TSMI_HRITData});
+            resources.ApplyResources(this.TSB_Open, "TSB_Open");
             this.TSB_Open.Name = "TSB_Open";
             // 
             // TSMI_GrADSData
             // 
-            resources.ApplyResources(this.TSMI_GrADSData, "TSMI_GrADSData");
             this.TSMI_GrADSData.Name = "TSMI_GrADSData";
+            resources.ApplyResources(this.TSMI_GrADSData, "TSMI_GrADSData");
             this.TSMI_GrADSData.Click += new System.EventHandler(this.TSMI_GrADSData_Click);
             // 
             // TSMI_GRIBData
             // 
-            resources.ApplyResources(this.TSMI_GRIBData, "TSMI_GRIBData");
             this.TSMI_GRIBData.Name = "TSMI_GRIBData";
+            resources.ApplyResources(this.TSMI_GRIBData, "TSMI_GRIBData");
             this.TSMI_GRIBData.Click += new System.EventHandler(this.TSMI_GRIBData_Click);
             // 
             // TSMI_NetCDFData
             // 
-            resources.ApplyResources(this.TSMI_NetCDFData, "TSMI_NetCDFData");
             this.TSMI_NetCDFData.Name = "TSMI_NetCDFData";
+            resources.ApplyResources(this.TSMI_NetCDFData, "TSMI_NetCDFData");
             this.TSMI_NetCDFData.Click += new System.EventHandler(this.TSMI_NetCDFData_Click);
             // 
             // TSMI_HDFData
             // 
-            resources.ApplyResources(this.TSMI_HDFData, "TSMI_HDFData");
             this.TSMI_HDFData.Name = "TSMI_HDFData";
+            resources.ApplyResources(this.TSMI_HDFData, "TSMI_HDFData");
             this.TSMI_HDFData.Click += new System.EventHandler(this.TSMI_HDFData_Click);
             // 
             // TSMI_MICAPSData
             // 
-            resources.ApplyResources(this.TSMI_MICAPSData, "TSMI_MICAPSData");
             this.TSMI_MICAPSData.Name = "TSMI_MICAPSData";
+            resources.ApplyResources(this.TSMI_MICAPSData, "TSMI_MICAPSData");
             this.TSMI_MICAPSData.Click += new System.EventHandler(this.TSMI_MICAPSData_Click);
             // 
             // TSMI_HYSPLITData
             // 
-            resources.ApplyResources(this.TSMI_HYSPLITData, "TSMI_HYSPLITData");
             this.TSMI_HYSPLITData.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TSMI_HYSPLITConc,
             this.TSMI_HYSPLITParticle,
             this.TSMI_HYSPLITTraj});
             this.TSMI_HYSPLITData.Name = "TSMI_HYSPLITData";
+            resources.ApplyResources(this.TSMI_HYSPLITData, "TSMI_HYSPLITData");
             // 
             // TSMI_HYSPLITConc
             // 
-            resources.ApplyResources(this.TSMI_HYSPLITConc, "TSMI_HYSPLITConc");
             this.TSMI_HYSPLITConc.Name = "TSMI_HYSPLITConc";
+            resources.ApplyResources(this.TSMI_HYSPLITConc, "TSMI_HYSPLITConc");
             this.TSMI_HYSPLITConc.Click += new System.EventHandler(this.TSMI_HYSPLITConc_Click);
             // 
             // TSMI_HYSPLITParticle
             // 
-            resources.ApplyResources(this.TSMI_HYSPLITParticle, "TSMI_HYSPLITParticle");
             this.TSMI_HYSPLITParticle.Name = "TSMI_HYSPLITParticle";
+            resources.ApplyResources(this.TSMI_HYSPLITParticle, "TSMI_HYSPLITParticle");
             this.TSMI_HYSPLITParticle.Click += new System.EventHandler(this.TSMI_HYSPLITParticle_Click);
             // 
             // TSMI_HYSPLITTraj
             // 
-            resources.ApplyResources(this.TSMI_HYSPLITTraj, "TSMI_HYSPLITTraj");
             this.TSMI_HYSPLITTraj.Name = "TSMI_HYSPLITTraj";
+            resources.ApplyResources(this.TSMI_HYSPLITTraj, "TSMI_HYSPLITTraj");
             this.TSMI_HYSPLITTraj.Click += new System.EventHandler(this.TSMI_HYSPLITTraj_Click);
             // 
             // TSMI_ARLData
             // 
-            resources.ApplyResources(this.TSMI_ARLData, "TSMI_ARLData");
             this.TSMI_ARLData.Name = "TSMI_ARLData";
+            resources.ApplyResources(this.TSMI_ARLData, "TSMI_ARLData");
             this.TSMI_ARLData.Click += new System.EventHandler(this.TSMI_ARLData_Click);
             // 
             // TSMI_ASCIIData
             // 
-            resources.ApplyResources(this.TSMI_ASCIIData, "TSMI_ASCIIData");
             this.TSMI_ASCIIData.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TSMI_LonLatStations,
             this.TSMI_SYNOPData,
@@ -337,169 +337,176 @@
             this.TSMI_ASCIIGrid,
             this.TSMI_SuferGrid});
             this.TSMI_ASCIIData.Name = "TSMI_ASCIIData";
+            resources.ApplyResources(this.TSMI_ASCIIData, "TSMI_ASCIIData");
             // 
             // TSMI_LonLatStations
             // 
-            resources.ApplyResources(this.TSMI_LonLatStations, "TSMI_LonLatStations");
             this.TSMI_LonLatStations.Name = "TSMI_LonLatStations";
+            resources.ApplyResources(this.TSMI_LonLatStations, "TSMI_LonLatStations");
             this.TSMI_LonLatStations.Click += new System.EventHandler(this.TSMI_LonLatStations_Click);
             // 
             // TSMI_SYNOPData
             // 
-            resources.ApplyResources(this.TSMI_SYNOPData, "TSMI_SYNOPData");
             this.TSMI_SYNOPData.Name = "TSMI_SYNOPData";
+            resources.ApplyResources(this.TSMI_SYNOPData, "TSMI_SYNOPData");
             this.TSMI_SYNOPData.Click += new System.EventHandler(this.TSMI_SYNOPData_Click);
             // 
             // TSMI_METARData
             // 
-            resources.ApplyResources(this.TSMI_METARData, "TSMI_METARData");
             this.TSMI_METARData.Name = "TSMI_METARData";
+            resources.ApplyResources(this.TSMI_METARData, "TSMI_METARData");
             this.TSMI_METARData.Click += new System.EventHandler(this.TSMI_METARData_Click_1);
             // 
             // TSMI_ISHData
             // 
-            resources.ApplyResources(this.TSMI_ISHData, "TSMI_ISHData");
             this.TSMI_ISHData.Name = "TSMI_ISHData";
+            resources.ApplyResources(this.TSMI_ISHData, "TSMI_ISHData");
             this.TSMI_ISHData.Click += new System.EventHandler(this.TSMI_ISHData_Click);
             // 
             // toolStripSeparator5
             // 
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             // 
             // TSMI_ASCIIGrid
             // 
-            resources.ApplyResources(this.TSMI_ASCIIGrid, "TSMI_ASCIIGrid");
             this.TSMI_ASCIIGrid.Name = "TSMI_ASCIIGrid";
+            resources.ApplyResources(this.TSMI_ASCIIGrid, "TSMI_ASCIIGrid");
             this.TSMI_ASCIIGrid.Click += new System.EventHandler(this.TSMI_ASCIIGrid_Click);
             // 
             // TSMI_SuferGrid
             // 
-            resources.ApplyResources(this.TSMI_SuferGrid, "TSMI_SuferGrid");
             this.TSMI_SuferGrid.Name = "TSMI_SuferGrid";
+            resources.ApplyResources(this.TSMI_SuferGrid, "TSMI_SuferGrid");
             this.TSMI_SuferGrid.Click += new System.EventHandler(this.TSMI_SuferGrid_Click);
             // 
             // TSMI_AWXData
             // 
-            resources.ApplyResources(this.TSMI_AWXData, "TSMI_AWXData");
             this.TSMI_AWXData.Name = "TSMI_AWXData";
+            resources.ApplyResources(this.TSMI_AWXData, "TSMI_AWXData");
             this.TSMI_AWXData.Click += new System.EventHandler(this.TSMI_AWXData_Click);
             // 
             // TSMI_GeoTiffData
             // 
-            resources.ApplyResources(this.TSMI_GeoTiffData, "TSMI_GeoTiffData");
             this.TSMI_GeoTiffData.Name = "TSMI_GeoTiffData";
+            resources.ApplyResources(this.TSMI_GeoTiffData, "TSMI_GeoTiffData");
             this.TSMI_GeoTiffData.Click += new System.EventHandler(this.TSMI_GeoTiffData_Click);
             // 
             // TSMI_HRITData
             // 
-            resources.ApplyResources(this.TSMI_HRITData, "TSMI_HRITData");
             this.TSMI_HRITData.Name = "TSMI_HRITData";
+            resources.ApplyResources(this.TSMI_HRITData, "TSMI_HRITData");
             this.TSMI_HRITData.Click += new System.EventHandler(this.TSMI_HRITData_Click);
             // 
             // TSB_DataInfo
             // 
-            resources.ApplyResources(this.TSB_DataInfo, "TSB_DataInfo");
             this.TSB_DataInfo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_DataInfo, "TSB_DataInfo");
             this.TSB_DataInfo.Name = "TSB_DataInfo";
             this.TSB_DataInfo.Click += new System.EventHandler(this.TSB_DataInfo_Click);
             // 
             // ToolStripSeparator1
             // 
-            resources.ApplyResources(this.ToolStripSeparator1, "ToolStripSeparator1");
             this.ToolStripSeparator1.Name = "ToolStripSeparator1";
+            resources.ApplyResources(this.ToolStripSeparator1, "ToolStripSeparator1");
             // 
             // TSB_Draw
             // 
-            resources.ApplyResources(this.TSB_Draw, "TSB_Draw");
             this.TSB_Draw.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_Draw, "TSB_Draw");
             this.TSB_Draw.Name = "TSB_Draw";
             this.TSB_Draw.Click += new System.EventHandler(this.TSB_Draw_Click);
             // 
             // TSB_ViewData
             // 
-            resources.ApplyResources(this.TSB_ViewData, "TSB_ViewData");
             this.TSB_ViewData.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_ViewData, "TSB_ViewData");
             this.TSB_ViewData.Name = "TSB_ViewData";
             this.TSB_ViewData.Click += new System.EventHandler(this.TSB_ViewData_Click);
             // 
             // TSB_ClearDrawing
             // 
-            resources.ApplyResources(this.TSB_ClearDrawing, "TSB_ClearDrawing");
             this.TSB_ClearDrawing.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_ClearDrawing, "TSB_ClearDrawing");
             this.TSB_ClearDrawing.Name = "TSB_ClearDrawing";
             this.TSB_ClearDrawing.Click += new System.EventHandler(this.TSB_ClearDrawing_Click);
             // 
             // ToolStripSeparator3
             // 
-            resources.ApplyResources(this.ToolStripSeparator3, "ToolStripSeparator3");
             this.ToolStripSeparator3.Name = "ToolStripSeparator3";
+            resources.ApplyResources(this.ToolStripSeparator3, "ToolStripSeparator3");
             // 
             // TSB_PreTime
             // 
-            resources.ApplyResources(this.TSB_PreTime, "TSB_PreTime");
             this.TSB_PreTime.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_PreTime, "TSB_PreTime");
             this.TSB_PreTime.Name = "TSB_PreTime";
             this.TSB_PreTime.Click += new System.EventHandler(this.TSB_PreTime_Click);
             // 
             // TSB_NextTime
             // 
-            resources.ApplyResources(this.TSB_NextTime, "TSB_NextTime");
             this.TSB_NextTime.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_NextTime, "TSB_NextTime");
             this.TSB_NextTime.Name = "TSB_NextTime";
             this.TSB_NextTime.Click += new System.EventHandler(this.TSB_NextTime_Click);
             // 
             // TSB_Animitor
             // 
-            resources.ApplyResources(this.TSB_Animitor, "TSB_Animitor");
             this.TSB_Animitor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_Animitor, "TSB_Animitor");
             this.TSB_Animitor.Name = "TSB_Animitor";
             this.TSB_Animitor.Click += new System.EventHandler(this.TSB_Animitor_Click);
             // 
             // TSB_CreateAnimatorFile
             // 
-            resources.ApplyResources(this.TSB_CreateAnimatorFile, "TSB_CreateAnimatorFile");
             this.TSB_CreateAnimatorFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_CreateAnimatorFile, "TSB_CreateAnimatorFile");
             this.TSB_CreateAnimatorFile.Name = "TSB_CreateAnimatorFile";
             this.TSB_CreateAnimatorFile.Click += new System.EventHandler(this.TSB_CreateAnimatorFile_Click);
             // 
             // ToolStripSeparator2
             // 
-            resources.ApplyResources(this.ToolStripSeparator2, "ToolStripSeparator2");
             this.ToolStripSeparator2.Name = "ToolStripSeparator2";
+            resources.ApplyResources(this.ToolStripSeparator2, "ToolStripSeparator2");
             // 
             // TSB_DrawSetting
             // 
-            resources.ApplyResources(this.TSB_DrawSetting, "TSB_DrawSetting");
             this.TSB_DrawSetting.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_DrawSetting, "TSB_DrawSetting");
             this.TSB_DrawSetting.Name = "TSB_DrawSetting";
             this.TSB_DrawSetting.Click += new System.EventHandler(this.TSB_DrawSetting_Click);
             // 
             // TSB_Setting
             // 
-            resources.ApplyResources(this.TSB_Setting, "TSB_Setting");
             this.TSB_Setting.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_Setting, "TSB_Setting");
             this.TSB_Setting.Name = "TSB_Setting";
             this.TSB_Setting.Click += new System.EventHandler(this.TSB_Setting_Click);
             // 
             // toolStripSeparator4
             // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
             // TSB_SectionPlot
             // 
-            resources.ApplyResources(this.TSB_SectionPlot, "TSB_SectionPlot");
             this.TSB_SectionPlot.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_SectionPlot, "TSB_SectionPlot");
             this.TSB_SectionPlot.Name = "TSB_SectionPlot";
             this.TSB_SectionPlot.Click += new System.EventHandler(this.TSB_ProfilePlot_Click);
             // 
             // TSB_1DPlot
             // 
-            resources.ApplyResources(this.TSB_1DPlot, "TSB_1DPlot");
             this.TSB_1DPlot.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.TSB_1DPlot, "TSB_1DPlot");
             this.TSB_1DPlot.Name = "TSB_1DPlot";
             this.TSB_1DPlot.Click += new System.EventHandler(this.TSB_1DPlot_Click);
+            // 
+            // CHB_Smooth
+            // 
+            resources.ApplyResources(this.CHB_Smooth, "CHB_Smooth");
+            this.CHB_Smooth.Name = "CHB_Smooth";
+            this.CHB_Smooth.UseVisualStyleBackColor = true;
             // 
             // frmMeteoData
             // 
@@ -586,6 +593,6 @@
         private System.Windows.Forms.Label Lab_Time;
         internal System.Windows.Forms.ComboBox CB_Level;
         internal System.Windows.Forms.ComboBox CB_Time;
-
+        private System.Windows.Forms.CheckBox CHB_Smooth;
     }
 }
