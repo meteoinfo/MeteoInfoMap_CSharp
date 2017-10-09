@@ -510,6 +510,7 @@ namespace MeteoInfo.Forms
                     //Get GrADS data info
                     string dFile = Path.ChangeExtension(aFile, ".dat");
                     GrADSDataInfo aDataInfo = new GrADSDataInfo();
+                    aDataInfo.FileName = aFile;
                     aDataInfo.TITLE = "Mask data";
                     aDataInfo.DSET = dFile;
                     aDataInfo.DTYPE = "GRIDDED";
