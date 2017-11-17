@@ -13336,6 +13336,19 @@
             <param name="smooth">smooth coefficient</param>
             <param name="boldValue">bold value</param>
         </member>
+        <member name="M:MeteoInfoC.Data.GridData.SaveAsMICAPS4File(System.String,System.String,System.DateTime,System.Int32,System.Int32,System.Single,System.Single,System.Int32)">
+            <summary>
+            Save as MICAPS 4 data file
+            </summary>
+            <param name="aFile">file path</param>
+            <param name="description">description</param>
+            <param name="aTime">data time</param>
+            <param name="hours">hours</param>
+            <param name="level">level</param>
+            <param name="smooth">smooth coefficient</param>
+            <param name="boldValue">bold value</param>
+            <param name="dNum">Decimal number of the data</param>
+        </member>
         <member name="M:MeteoInfoC.Data.GridData.SaveAsMICAPS4File(System.String,System.String,System.DateTime,System.Int32,System.Int32,System.Single,System.Single,MeteoInfoC.Projections.ProjectionInfo)">
             <summary>
             Save as MICAPS 4 data file
@@ -13348,6 +13361,20 @@
             <param name="smooth">smooth coefficient</param>
             <param name="boldValue">bold value</param>
             <param name="projInfo">projection information</param>
+        </member>
+        <member name="M:MeteoInfoC.Data.GridData.SaveAsMICAPS4File(System.String,System.String,System.DateTime,System.Int32,System.Int32,System.Single,System.Single,MeteoInfoC.Projections.ProjectionInfo,System.Int32)">
+            <summary>
+            Save as MICAPS 4 data file
+            </summary>
+            <param name="aFile">file path</param>
+            <param name="description">description</param>
+            <param name="aTime">data time</param>
+            <param name="hours">hours</param>
+            <param name="level">level</param>
+            <param name="smooth">smooth coefficient</param>
+            <param name="boldValue">bold value</param>
+            <param name="projInfo">projection information</param>
+            <param name="dNum">Decimal number of the data</param>
         </member>
         <member name="M:MeteoInfoC.Data.GridData.Extract(MeteoInfoC.Global.Extent)">
             <summary>
